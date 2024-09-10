@@ -634,7 +634,34 @@
 
 
 
-  
+    <script data-cfasync='false' class='jdgm-script'>
+        ! function(e) {
+            window.jdgm = window.jdgm || {}, jdgm.CDN_HOST = "https://cdn.judge.me/",
+                jdgm.docReady = function(d) {
+                    (e.attachEvent ? "complete" === e.readyState : "loading" !== e.readyState) ?
+                    setTimeout(d, 0): e.addEventListener("DOMContentLoaded", d)
+                }, jdgm.loadCSS = function(d, t, o, s) {
+                    !o && jdgm.loadCSS.requestedUrls.indexOf(d) >= 0 || (jdgm.loadCSS.requestedUrls.push(d),
+                        (s = e.createElement("link")).rel = "stylesheet", s.class = "jdgm-stylesheet", s.media = "nope!",
+                        s.href = d, s.onload = function() {
+                            this.media = "all", t && setTimeout(t)
+                        }, e.body.appendChild(s))
+                },
+                jdgm.loadCSS.requestedUrls = [], jdgm.loadJS = function(e, d) {
+                    var t = new XMLHttpRequest;
+                    t.onreadystatechange = function() {
+                            4 === t.readyState && (Function(t.response)(), d && d(t.response))
+                        },
+                        t.open("GET", e), t.send()
+                }, jdgm.docReady((function() {
+                    (window.jdgmLoadCSS || e.querySelectorAll(
+                        ".jdgm-widget, .jdgm-all-reviews-page").length > 0) && (jdgmSettings.widget_load_with_code_splitting ?
+                        parseFloat(jdgmSettings.widget_version) >= 3 ? jdgm.loadCSS(jdgm.CDN_HOST + "widget_v3/base.css") :
+                        jdgm.loadCSS(jdgm.CDN_HOST + "widget/base.css") : jdgm.loadCSS(jdgm.CDN_HOST + "shopify_v2.css"),
+                        jdgm.loadJS(jdgm.CDN_HOST + "loader.js"))
+                }))
+        }(document);
+    </script>
 
     <noscript><link rel="stylesheet" type="text/css" media="all" href="https://cdn.judge.me/shopify_v2.css"></noscript>
     <!-- End of Judge.me Core -->
@@ -1586,320 +1613,6 @@
 
 
 
-
-                                        <!-- <li class="nav--lv1 parent--lv1 site-nav--Default">
-                                            <a href="#" class="site-nav__link--main">
-
-
-
-
-
-
-
-
-
-                                                <div class="site-nav--icon">
-
-                                                    <img src="./cdn/shop/files/catmenu-icon-1.svg?v=1708141035&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-1.svg?v=1708141035&amp;width=20 20w" width="20" height="20" loading="lazy"
-                                                        class="img-fluid">
-                                                </div>
-
-                                                <span class="site-nav--title">Headlights & Lighting</span>
-                                            </a>
-                                            <div class="nav-dropdown--lv1 MenuDefault">
-
-
-                                                <div class="subsitle-ver">
-                                                    Headlights & Lighting
-                                                </div>
-                                                <ul>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                                <span>Headlights</span>
-                                                                
-                                                                </a>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2 parent--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                        <span>Multibeam Led</span>
-                                                        
-                                                        <span class="site-nav--direc d-none"><i class="zmdi zmdi-chevron-down"></i></span>
-                                                        
-                                                        </a>
-
-                                                                <div class="nav-dropdown--lv2">
-                                                            <div class="subsitle-ver">
-                                                                Multibeam Led
-                                                            </div>
-                                                            <ul>
-
-                                                                <li>
-                                                                    <a href="#" class="site-nav__link">Lighting</a>
-                                                                </li>
-
-                                                                <li>
-                                                                    <a href="#" class="site-nav__link">Projector Headlights</a>
-                                                                </li>
-
-                                                            </ul>
-                                                        </div>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                    <span>Projector Headlights</span>
-                                                    
-                                                    </a>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2 parent--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                        <span>Chevrolet</span>
-                                                        
-                                                        <span class="site-nav--direc d-none"><i class="zmdi zmdi-chevron-down"></i></span>
-                                                        
-                                                        </a>
-
-                                                        <div class="nav-dropdown--lv2">
-                                                            <div class="subsitle-ver">
-                                                                Chevrolet
-                                                            </div>
-                                                            <ul>
-
-                                                                <li>
-                                                                    <a href="#" class="site-nav__link">Reflectors</a>
-                                                                </li>
-
-                                                                <li>
-                                                                    <a href="#" class="site-nav__link">Hydraulic brake</a>
-                                                                </li>
-
-                                                            </ul>
-                                                        </div>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                    <span>Peugeot</span>
-                                                    
-                                                    </a>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                    <span>Toyota</span>
-                                                    
-                                                    </a>
-
-                                                    </li>
-
-
-
-                                                        <li class="nav--lv2">
-                                                            <a href="#" class="site-nav__link--second site-nav__link">
-                                                    <span>Fog Lights</span>
-                                                    
-                                                    </a>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                            <span>Interior Lights</span>
-                                                            
-                                                            </a>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                    <span>License Plate Lights</span>
-                                                    
-                                                    </a>
-
-                                                    </li>
-
-
-
-                                                    <li class="nav--lv2">
-                                                        <a href="#" class="site-nav__link--second site-nav__link">
-                                                        <span>Rear Fog Lights</span>
-                                                        
-                                                        </a>
-
-                                                    </li>
-
-                                                </ul>
-
-
-                                            </div>
-                                        </li> -->
-
-                                        <!-- <li class="nav--lv1 parent--lv1 site-nav--Default">
-                                            <a href="#" class="site-nav__link--main">
-
-                                                <div class="site-nav--icon">
-
-                                                    <img src="./cdn/shop/files/catmenu-icon-2.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-2.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
-                                                        class="img-fluid">
-                                                </div>
-
-                                                <span class="site-nav--title">Car Audio Systems</span>
-                                            </a>
-                                            <div class="nav-dropdown--lv1 MenuDefault">
-
-                                                <div class="subsitle-ver">
-                                                    Car Audio Systems
-                                                </div>
-                                                <ul>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Car Audio Systems</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Car Amplifier</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Car Speakers</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Car Starters</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Car Stereo</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link site-nav__link--last">Car Subwoofers</a>
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
-                                        </li>
-
-                                        <li class="nav--lv1 parent--lv1 site-nav--Default">
-                                            <a href="#" class="site-nav__link--main">
-
-
-                                                <div class="site-nav--icon">
-
-                                                    <img src="./cdn/shop/files/catmenu-icon-3.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-3.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
-                                                        class="img-fluid">
-                                                </div>
-
-                                                <span class="site-nav--title">Tires & Wheels</span>
-                                            </a>
-                                            <div class="nav-dropdown--lv1 MenuDefault">
-
-                                                <div class="subsitle-ver">
-                                                    Tires & Wheels
-                                                </div>
-                                                <ul>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">All Season</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Alloy Wheels</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link"> Competition Tire</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Light Truck</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Lug Nut</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Passenger Car</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link site-nav__link--last"> SUV/CUV</a>
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
-                                        </li>
-
-                                        <li class="nav--lv1 parent--lv1 site-nav--Default">
-                                            <a href="#" class="site-nav__link--main">
-
-                                                <div class="site-nav--icon">
-
-                                                    <img src="./cdn/shop/files/catmenu-icon-4.svg?v=1708141296&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-4.svg?v=1708141296&amp;width=20 20w" width="20" height="20" loading="lazy"
-                                                        class="img-fluid">
-                                                </div>
-
-                                                <span class="site-nav--title">Suspension</span>
-                                            </a>
-                                            <div class="nav-dropdown--lv1 MenuDefault">
-
-                                                <div class="subsitle-ver">
-                                                    Suspension
-                                                </div>
-                                                <ul>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Dampers</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Struts</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Springs</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link">Wheel</a>
-                                                    </li>
-
-                                                    <li>
-                                                        <a href="#" class="site-nav__link site-nav__link--last">Control Arm</a>
-                                                    </li>
-
-                                                </ul>
-
-                                            </div>
-                                        </li> -->
-
                                         <li class="nav--lv1 ">
                                             <a href="./jain-pvc-plumb-fitting.html" class="site-nav__link--main" title="Tools & Equipment">
                                                 <div class="site-nav--icon">
@@ -1908,12 +1621,12 @@
                                                         class="img-fluid">
                                                 </div>
 
-                                                PVC PLUMB FITTINGS - HD
+                                                Pvc Plumb Fittings
                                             </a>
                                         </li>
 
                                         <li class="nav--lv1 ">
-                                            <a href="#" class="site-nav__link--main" title="Oil Car">
+                                            <a href="./jain-pvc-bend-socket.html" class="site-nav__link--main" title="Oil Car">
 
                                                 <div class="site-nav--icon">
 
@@ -1921,12 +1634,12 @@
                                                         class="img-fluid">
                                                 </div>
 
-                                                Oil Car
+                                                Pvc Bend & Socket
                                             </a>
                                         </li>
 
                                         <li class="nav--lv1 ">
-                                            <a href="#" class="site-nav__link--main" title="Brakes">
+                                            <a href="./drip-sprinkler-fittings.html" class="site-nav__link--main" title="Brakes">
 
 
                                                 <div class="site-nav--icon">
@@ -1935,7 +1648,7 @@
                                                         class="img-fluid">
                                                 </div>
 
-                                                Brakes
+                                                Drip Irrigation 
                                             </a>
                                         </li>
 
@@ -1948,7 +1661,7 @@
                                                         class="img-fluid">
                                                 </div>
 
-                                                Auto Safety & Security
+                                                Pvc Pipes
                                             </a>
                                         </li>
 
@@ -1961,7 +1674,7 @@
                                                         class="img-fluid">
                                                 </div>
 
-                                                Automotive Rims
+                                                PE Coils
                                             </a>
                                         </li>
 
@@ -1972,8 +1685,8 @@
                                                     <img src="./cdn/shop/files/catmenu-icon-10.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-10.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
                                                         class="img-fluid">
                                                 </div>
+                                                RPVC Fitting
 
-                                                Automotive Display
                                             </a>
                                         </li>
 
@@ -1986,7 +1699,225 @@
                                                         class="img-fluid">
                                                 </div>
 
-                                                Battery
+                                                CPVC Pipes & Fittings
+                                            </a>
+                                        </li>
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+                                                UPVC Fittings
+                                                
+                                            </a>
+                                        </li>
+
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                SWR Fittings
+                                            </a>
+                                        </li>
+
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Premium Bath Fittings
+                                            </a>
+                                        </li>
+
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Laxuary Bath Fittings
+                                            </a>
+                                        </li>
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Laxuary Hindware Italian 
+                                            </a>
+                                        </li>
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Executive Grade Bath Fitting 
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                PTMP PVC Bath Fitting 
+                                            </a>
+                                        </li>
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                PVC Valves  
+                                            </a>
+                                        </li>
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Manhole Cover  
+                                            </a>
+                                        </li>
+                                       
+                                       
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                GI Fitting & Nipple  
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                CI & MS Fittings
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                GM Brass Valves
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Other Allied Products
+                                            </a>
+                                        </li>
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Hoses
+                                            </a>
+                                        </li>
+
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Solvent and Tape
+                                            </a>
+                                        </li>
+
+                                        <li class="nav--lv1  last">
+                                            <a href="#" class="site-nav__link--main" title="Battery">
+
+                                                <div class="site-nav--icon">
+
+                                                    <img src="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20" alt="icon-ver" srcset="./cdn/shop/files/catmenu-icon-11.svg?v=1708141297&amp;width=20 20w" width="20" height="20" loading="lazy"
+                                                        class="img-fluid">
+                                                </div>
+
+                                                Water Tanks
                                             </a>
                                         </li>
 
@@ -3387,7 +3318,6 @@
             <div class="distance" data-section-id="template--20666939539732__4f4c78d7-99ce-4c86-840e-15d84502f4d9" data-section-type="nov-slick">
 
               
-                
                 <div class="container">
                     <div class="container-inner position-relative overflow_hidden">
                         <div class="nov-text-scroll overflow_hidden d-flex">
@@ -3446,14 +3376,9 @@
                 
 
 
-     
-
-          
         </div>
 
-       
-<!-- ---------------------------------------------- brand animation ---------------------------------------- -->
-            <style>
+             <style>
                  /* Ensure the content is centered horizontally and vertically */
     .container-inner {
         display: flex;
@@ -3479,1214 +3404,474 @@
             </style>
         </div>
         <div id="shopify-section-template--20666939539732__fa003445-3a5a-42d8-8bd0-37d202ba67bf" class="shopify-section section-collection-text">
-            <style data-shopify>
-                #shopify-section-template--20666939539732__fa003445-3a5a-42d8-8bd0-37d202ba67bf .distance {
-                    padding-top: 0px;
-                    padding-bottom: 60px;
-                    background: #f3f3f3 no-repeat center;
-                    background-size: cover;
+  
+        
+
+
+            <style>
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .distance {
+                    padding-top: 10px;
+                    padding-bottom: 30px;
+                    padding-left: 0px;
+                    padding-right: 0px;
+                    background-color: rgba(0, 0, 0, 0);
                 }
 
-                @media(max-width: 1199px) {}
+                @media(max-width: 767px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .distance {
+                        padding-bottom: 21px;
+                    }
+                }
 
-                #shopify-section-template--20666939539732__fa003445-3a5a-42d8-8bd0-37d202ba67bf .content-collection-text {
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .gallery-image__item {
                     border-radius: 10px;
+                }
+
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 .gallery-image__text1 {
+                    font-size: 30px;
+                    margin-bottom: 0px;
+                    line-height: ;
+                    letter-spacing: px;
+                }
+
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 .gallery-image__text2 {
+                    font-size: 16px;
+                    margin-bottom: 32px;
+                    line-height: ;
+                    max-width: 500px;
+                    letter-spacing: px;
+                }
+
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 {
+                    width: 70%;
+                    left: 5%;
+                    top: 30%;
+                }
+
+                @media(max-width: 1440px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                }
+
+                @media(max-width: 1199px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 .gallery-image__text1 {
+                        font-size: 21.0px;
+                        margin-bottom: 0.0px;
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 .gallery-image__text2 {
+                        font-size: 11.2px;
+                        margin-bottom: 22.4px;
+                    }
+                }
+
+                @media(max-width: 991px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 {
+                        width: 70%;
+                        left: 5%;
+                        top: 15%;
+                    }
+                }
+
+                @media(max-width: 767px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 .gallery-image__text1 {
+                        font-size: clamp(10px, 18.0px, 20px);
+                        margin-bottom: clamp(5px, 0.0px, 20px);
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 .gallery-image__text2 {
+                        font-size: clamp(10px, 9.6px, 16px);
+                        margin-bottom: clamp(5px, 19.2px, 20px);
+                    }
+                }
+
+                @media(max-width: 575px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-1 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                }
+
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 .gallery-image__text1 {
+                    font-size: 30px;
+                    margin-bottom: 0px;
+                    line-height: ;
+                    letter-spacing: px;
+                }
+
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 .gallery-image__text2 {
+                    font-size: 14px;
+                    margin-bottom: 32px;
+                    line-height: ;
+                    max-width: 500px;
+                    letter-spacing: px;
+                }
+
+                #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 {
+                    width: 70%;
+                    left: 5%;
+                    top: 30%;
+                }
+
+                @media(max-width: 1440px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                }
+
+                @media(max-width: 1199px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 .gallery-image__text1 {
+                        font-size: 21.0px;
+                        margin-bottom: 0.0px;
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 .gallery-image__text2 {
+                        font-size: 9.8px;
+                        margin-bottom: 22.4px;
+                    }
+                }
+
+                @media(max-width: 991px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 {
+                        width: 70%;
+                        left: 5%;
+                        top: 15%;
+                    }
+                }
+
+                @media(max-width: 767px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 .gallery-image__text1 {
+                        font-size: clamp(10px, 18.0px, 20px);
+                        margin-bottom: clamp(5px, 0.0px, 20px);
+                    }
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 .gallery-image__text2 {
+                        font-size: clamp(10px, 8.4px, 16px);
+                        margin-bottom: clamp(5px, 19.2px, 20px);
+                    }
+                }
+
+                @media(max-width: 575px) {
+                    #shopify-section-template--20666939539732__02dbfed1-2724-43a0-933a-153058240c59 .cap-2 {
+                        width: 70%;
+                        left: 5%;
+                        top: 30%;
+                    }
+                }
+            </style>
+        </div>
+        <div id="shopify-section-template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58" class="shopify-section section-collection-tabs">
+            <div data-section-id="template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58" class="distance position-relative" data-product-tabs>
+
+                
+            </div>
+
+
+            <style>
+                #shopify-section-template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58 .distance {
+                    padding-top: 30px;
+                    padding-bottom: 10px;
+                    border-radius: 0px;
+                }
+
+                @media(max-width: 767px) {
+                    #shopify-section-template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58 .distance {
+                        padding-top: 21px;
+                    }
+                }
+
+                @media(min-width : 768px) {
+                    #shopify-section-template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58 .nav-link {
+                        color: #b0b0b0;
+                        background-color: rgba(0, 0, 0, 0);
+                    }
+                    #shopify-section-template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58 .nav-link.active,
+                    #shopify-section-template--20666939539732__5ea99184-cde5-4d63-85e4-3994c8ba4b58 .nav-link:hover {
+                        color: #db0000;
+                        background-color: #f3f3f3;
+                    }
+                }
+
+                @media(max-width: 575px) {
+                    .collection-carousel:not(.slick-initialized) .col:nth-child(3),
+                    .collection-carousel:not(.slick-initialized) .col:nth-child(4) {
+                        display: none;
+                    }
+                }
+            </style>
+        </div>
+        <div id="shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0" class="shopify-section section-group-banner">
+            <style data-shopify>
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .distance {
+                    padding-top: 53px;
+                    padding-bottom: 60px;
+                }
+
+                @media(max-width: 767px) {
+                    #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .distance {
+                        padding-top: 37px;
+                        padding-bottom: 42px;
+                    }
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group_banner__item {
+                    border-radius: 10px;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-1 .cap-1 .group_banner_text1 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-1 .cap-2 .group_banner_text1 {
+                    font-size: 1.6rem;
+                    color: #db0000;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-1 .cap-1 .group_banner_text2 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-1 .cap-2 .group_banner_text2 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .banner-center-1 .group_banner_text1 {
+                    font-size: 0.0rem;
+                    color: ;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .banner-center-1 .group_banner_text2 {
+                    font-size: 0.0rem;
+                    color:
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-2 .cap-1 .group_banner_text1 {
+                    font-size: 0.0rem;
+                    color: ;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-2 .cap-2 .group_banner_text1 {
+                    font-size: 0.0rem;
+                    color: ;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-2 .cap-1 .group_banner_text2 {
+                    font-size: 0.0rem;
+                    color: ;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-2 .cap-2 .group_banner_text2 {
+                    font-size: 0.0rem;
+                    color: ;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .banner-center-2 .group_banner_text1 {
+                    font-size: 2.4rem;
+                    color: #db0000;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .banner-center-2 .group_banner_text2 {
+                    font-size: 1.2rem;
+                    color: #222222
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-3 .cap-1 .group_banner_text1 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-3 .cap-2 .group_banner_text1 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-3 .cap-1 .group_banner_text2 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .group-banner-3 .cap-2 .group_banner_text2 {
+                    font-size: 1.6rem;
+                    color: #222222;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .banner-center-3 .group_banner_text1 {
+                    font-size: 0.0rem;
+                    color: ;
+                }
+
+                #shopify-section-template--20666939539732__35aab3d5-754a-46de-8fe9-23fe91b404c0 .banner-center-3 .group_banner_text2 {
+                    font-size: 0.0rem;
+                    color:
                 }
             </style>
 
-            <div class="distance overflow_hidden">
+            <div class="distance">
                 <div class="container">
 
-                    <div class="row flex-wrap spacing-30">
+                    <div class="row spacing-30">
 
-     <!-------------------------------------------- PVC Elbow 90º - PN 10  ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly-Elbow.png" alt="collection-pvc-elbow" srcset="./drip-sprinkler-fittings/Poly-Elbow.png, ./drip-sprinkler-fittings/Poly-Elbow.png, ./drip-sprinkler-fittings/Poly-Elbow.png, ./drip-sprinkler-fittings/Poly-Elbow.png, ./drip-sprinkler-fittings/Poly-Elbow.png, ./drip-sprinkler-fittings/Poly-Elbow.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Elbow<span style="display: block;"> &nbsp; </span>
-                </h3>
-            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Elbow">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
-<!-------------------------------------------- PVC Equal Elbow 45º - PN 10  ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly End Plug.png" alt="collection-equal-elbow" srcset="./drip-sprinkler-fittings/Poly End Plug.png, ./drip-sprinkler-fittings/Poly End Plug.png, ./drip-sprinkler-fittings/Poly End Plug.png, ./drip-sprinkler-fittings/Poly End Plug.png, ./drip-sprinkler-fittings/Poly End Plug.png, ./drip-sprinkler-fittings/Poly End Plug.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly End Plug <span style="display: block;">&nbsp;</span>
-                </h3>
-            </div>
-            <ul>
-               
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly End Plug">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Equal Elbow 45º - PN 10  ----------------------------------------------------------->
+                        <div class="col-lg-4 group-banner group-banner-1">
 
 
 
-<!-------------------------------------------- PVC TREE - PN 10  ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly End Stop8.png" alt="collection-pvc-tree" srcset="./drip-sprinkler-fittings/Poly End Stop8.png, ./drip-sprinkler-fittings/Poly End Stop8.png, ./drip-sprinkler-fittings/Poly End Stop8.png, ./drip-sprinkler-fittings/Poly End Stop8.png, ./drip-sprinkler-fittings/Poly End Stop8.png, ./drip-sprinkler-fittings/Poly End Stop8.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly End Stop8 <span style="display: block;"> &nbsp; </span>
-                </h3>
-            </div>  
-            <ul>
-               
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly End Stop8">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC TREE - PN 10  ----------------------------------------------------------->
 
 
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly Goof Pluge.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Poly Goof Pluge.png, ./drip-sprinkler-fittings/Poly Goof Pluge.png, ./drip-sprinkler-fittings/Poly Goof Pluge.png, ./drip-sprinkler-fittings/Poly Goof Pluge.png, ./drip-sprinkler-fittings/Poly Goof Pluge.png, ./drip-sprinkler-fittings/Poly Goof Pluge.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Goof Pluge<span style="display: block;">&nbsp; </span>
-                </h3>
+
+
+
+
+
+
+
+                            <div class="group_banner__item overflow_hidden position-relative nov-sh-image-2 mb-30   cap-1">
+                                <a class="w-100 gallery-image__link d-block" href="#">
+<img src="./pvc-pipes/smooth inner wall.png?v=1691121440&amp;width=1920" alt="Ball Bearing" srcset="./pvc-pipes/smooth inner wall.png?v=1691121440&amp;width=470 470w, ./pvc-pipes/smooth inner wall.png?v=1691121440&amp;width=500 500w, ./pvc-pipes/smooth inner wall.png?v=1691121440&amp;width=700 700w, ./pvc-pipes/smooth inner wall.png?v=1691121440&amp;width=900 900w, ./pvc-pipes/smooth inner wall.png?v=1691121440&amp;width=1200 1200w" width="1920" height="1144" loading="lazy" class="img-fluid lupanh">
+                  
+                </a>
+                                <div class="group_banner_caption position-absolute text-left">
+                                    <div class="image-caption__content">
+
+                                        <div class="group_banner_text1 font-700 text-uppercase">Smooth Inner Wall                                        </div>
+
+
+                                        <div class="group_banner_text2 font-700 text-uppercase">minimizes frictional losses and due to precipitation</div>
+
+
+
+                                    </div>
+                                </div>
                             </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Goof Pluge">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
 
 
 
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly Reducing Joiner.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Poly Reducing Joiner.png, ./drip-sprinkler-fittings/Poly Reducing Joiner.png, ./drip-sprinkler-fittings/Poly Reducing Joiner.png, ./drip-sprinkler-fittings/Poly Reducing Joiner.png, ./drip-sprinkler-fittings/Poly Reducing Joiner.png, ./drip-sprinkler-fittings/Poly Reducing Joiner.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Reducing <span style="display: block;">Joiner </span>
-                </h3>
+
+
+
+
+
+
+
+
+
+
+                            <div class="group_banner__item overflow_hidden position-relative nov-sh-image-2  mb-md-30  cap-2">
+                                <a class="w-100 gallery-image__link d-block" href="#">
+<img src="./pvc-pipes/various sizes available.png?v=1691121440&amp;width=1920" alt="free Wheel care" srcset="./pvc-pipes/various sizes available.png?v=1691121440&amp;width=470 470w, ./pvc-pipes/various sizes available.png?v=1691121440&amp;width=500 500w, ./pvc-pipes/various sizes available.png?v=1691121440&amp;width=700 700w, ./pvc-pipes/various sizes available.png?v=1691121440&amp;width=900 900w, ./pvc-pipes/various sizes available.png?v=1691121440&amp;width=1200 1200w" width="1920" height="1144" loading="lazy" class="img-fluid lupanh">
+                  
+                </a>
+                                <div class="group_banner_caption position-absolute text-left">
+                                    <div class="image-caption__content">
+
+                                        <div class="group_banner_text1 font-700 text-uppercase">Various Sizes Available</div>
+
+
+                                        <div class="group_banner_text2 font-700 text-uppercase">20 mm (½”) to 630 mm 0 mm (½”) to 630 mm
+                                            (24”) as per the
+                                            standards                                       </div>
+
+
+                                        <a href="" class="btn-medium d-inline-block button color-button-9">Shop now<i class="zmdi zmdi-long-arrow-right"></i></a>
+
+                                    </div>
+                                </div>
                             </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Reducing Joiner">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
 
 
+                        </div>
+
+                        <div class="col-lg-4 banner-center banner-center-2">
+                            <div class="group_banner__item overflow_hidden position-relative mb-md-30 nov-sh-image-2 ">
+                                <a class="w-100 gallery-image__link d-block" href="#"><img src="./pvc-pipes/image.png?v=1691121440&amp;width=1920" alt="Sports Rims For Cars" srcset="./pvc-pipes/image.png?v=1691121440&amp;width=470 470w, ./pvc-pipes/image.png?v=1691121440&amp;width=500 500w, ./pvc-pipes/image.png?v=1691121440&amp;width=700 700w, ./pvc-pipes/image.png?v=1691121440&amp;width=900 900w, ./pvc-pipes/image.png?v=1691121440&amp;width=1200 1200w, ./pvc-pipes/image.png?v=1691121440&amp;width=1920 1920w" width="1920" height="2410" loading="lazy" class="img-fluid">
+                  
+                </a>
+                                <div class="group_banner_caption position-absolute text-center w-100">
+                                    <div class="image-caption__content">
+
+                                        <div class="group_banner_text1 font-700 text-uppercase">PVC PIPES</div>
 
 
+                                        <div class="group_banner_text2">SMOOTH WALL CLOSED CONDUIT</div>
 
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly Reducing Tee.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Poly Reducing Tee.png, ./drip-sprinkler-fittings/Poly Reducing Tee.png, ./drip-sprinkler-fittings/Poly Reducing Tee.png, ./drip-sprinkler-fittings/Poly Reducing Tee.png, ./drip-sprinkler-fittings/Poly Reducing Tee.png, ./drip-sprinkler-fittings/Poly Reducing Tee.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Reducing Tee <span style="display: block;">&nbsp; </span>
-                </h3>
+
+                                        <a href="" class="btn-medium d-inline-block button color-">Shop now</a>
+
+                                    </div>
+                                </div>
                             </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Reducing Tee">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
+                        </div>
+
+                        <div class="col-lg-4 group-banner group-banner-3">
+
+                            <div class="group_banner__item overflow_hidden position-relative nov-sh-image-2 mb-30   cap-1">
+                                <a class="w-100 gallery-image__link d-block" href="#">
+<img src="//nov-automize.myshopify.com/cdn/shop/files/banner-16.jpg?v=1691121440&amp;width=1920" alt="30% OFF" srcset="//nov-automize.myshopify.com/cdn/shop/files/banner-16.jpg?v=1691121440&amp;width=470 470w, //nov-automize.myshopify.com/cdn/shop/files/banner-16.jpg?v=1691121440&amp;width=500 500w, //nov-automize.myshopify.com/cdn/shop/files/banner-16.jpg?v=1691121440&amp;width=700 700w, //nov-automize.myshopify.com/cdn/shop/files/banner-16.jpg?v=1691121440&amp;width=900 900w, //nov-automize.myshopify.com/cdn/shop/files/banner-16.jpg?v=1691121440&amp;width=1200 1200w" width="1920" height="1144" loading="lazy" class="img-fluid lupanh">
+                  
+                </a>
+                                <div class="group_banner_caption position-absolute text-left">
+                                    <div class="image-caption__content">
+
+                                        <div class="group_banner_text1 font-700 text-uppercase">30% OFF</div>
 
 
+                                        <div class="group_banner_text2 font-700 text-uppercase">on this week</div>
 
 
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/poly-take-off.png" alt="collection-image" srcset="./drip-sprinkler-fittings/poly-take-off.png, ./drip-sprinkler-fittings/poly-take-off.png, ./drip-sprinkler-fittings/poly-take-off.png, ./drip-sprinkler-fittings/poly-take-off.png, ./drip-sprinkler-fittings/poly-take-off.png, ./drip-sprinkler-fittings/poly-take-off.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Take off <span style="display: block;">&nbsp; </span>
-                </h3>
+                                        <a href="" class="btn-medium d-inline-block button color-button-9">Shop now<i class="zmdi zmdi-long-arrow-right"></i></a>
+
+                                    </div>
+                                </div>
                             </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Take Off">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
 
 
+                            <div class="group_banner__item overflow_hidden position-relative nov-sh-image-2  mb-md-30  cap-2">
+                                <a class="w-100 gallery-image__link d-block" href="#">
+<img src="//nov-automize.myshopify.com/cdn/shop/files/banner-17.jpg?v=1691121440&amp;width=1920" alt="suspension and" srcset="//nov-automize.myshopify.com/cdn/shop/files/banner-17.jpg?v=1691121440&amp;width=470 470w, //nov-automize.myshopify.com/cdn/shop/files/banner-17.jpg?v=1691121440&amp;width=500 500w, //nov-automize.myshopify.com/cdn/shop/files/banner-17.jpg?v=1691121440&amp;width=700 700w, //nov-automize.myshopify.com/cdn/shop/files/banner-17.jpg?v=1691121440&amp;width=900 900w, //nov-automize.myshopify.com/cdn/shop/files/banner-17.jpg?v=1691121440&amp;width=1200 1200w" width="1920" height="1144" loading="lazy" class="img-fluid lupanh">
+                  
+                </a>
+                                <div class="group_banner_caption position-absolute text-left">
+                                    <div class="image-caption__content">
+
+                                        <div class="group_banner_text1 font-700 text-uppercase">suspension and</div>
 
 
+                                        <div class="group_banner_text2 font-700 text-uppercase">brake system</div>
 
 
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly Joiner.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Poly Joiner.png, ./drip-sprinkler-fittings/Poly Joiner.png, ./drip-sprinkler-fittings/Poly Joiner.png, ./drip-sprinkler-fittings/Poly Joiner.png, ./drip-sprinkler-fittings/Poly Joiner.png, ./drip-sprinkler-fittings/Poly Joiner.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Joiner  <span style="display: block;">&nbsp; </span>
-                </h3>
+                                        <a href="" class="btn-medium d-inline-block button color-button-9">Shop now<i class="zmdi zmdi-long-arrow-right"></i></a>
+
+                                    </div>
+                                </div>
                             </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Joiner">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
 
 
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Poly-Tee.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Poly-Tee.png, ./drip-sprinkler-fittings/Poly-Tee.png, ./drip-sprinkler-fittings/Poly-Tee.png, ./drip-sprinkler-fittings/Poly-Tee.png, ./drip-sprinkler-fittings/Poly-Tee.png, ./drip-sprinkler-fittings/Poly-Tee.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Poly Tee   <span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Poly Tee ">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe x Poly Joiner.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Emitting Pipe x  <span style="display: block;">Poly Joiner </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Emitting Pipe x Poly Joiner">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Tee Tap.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Tee Tap.png, ./drip-sprinkler-fittings/Tee Tap.png, ./drip-sprinkler-fittings/Tee Tap.png, ./drip-sprinkler-fittings/Tee Tap.png, ./drip-sprinkler-fittings/Tee Tap.png, ./drip-sprinkler-fittings/Tee Tap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Tee Tap <span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Emitting Pipe x Poly Joiner">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Emitting Pipe Tee.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Emitting Pipe Tee.png, ./drip-sprinkler-fittings/Emitting Pipe Tee.png, ./drip-sprinkler-fittings/Emitting Pipe Tee.png, ./drip-sprinkler-fittings/Emitting Pipe Tee.png, ./drip-sprinkler-fittings/Emitting Pipe Tee.png, ./drip-sprinkler-fittings/Emitting Pipe Tee.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Emitting Pipe Tee <span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Emitting Pipe Tee">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Tap.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Tap.png, ./drip-sprinkler-fittings/Tap.png, ./drip-sprinkler-fittings/Tap.png, ./drip-sprinkler-fittings/Tap.png, ./drip-sprinkler-fittings/Tap.png, ./drip-sprinkler-fittings/Tap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Tap <span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Tap">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Emitting Pipe Joiner.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Emitting Pipe Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe Joiner.png, ./drip-sprinkler-fittings/Emitting Pipe Joiner.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Emitting Pipe Joiner <span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Emitting Pipe Joiner">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Emitting Pipe Elbow.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Emitting Pipe Elbow.png, ./drip-sprinkler-fittings/Emitting Pipe Elbow.png, ./drip-sprinkler-fittings/Emitting Pipe Elbow.png, ./drip-sprinkler-fittings/Emitting Pipe Elbow.png, ./drip-sprinkler-fittings/Emitting Pipe Elbow.png, ./drip-sprinkler-fittings/Emitting Pipe Elbow.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Emitting Pipe Elbow <span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Emitting Pipe Elbow">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Rain Hose Connector.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Rain Hose Connector.png, ./drip-sprinkler-fittings/Rain Hose Connector.png, ./drip-sprinkler-fittings/Rain Hose Connector.png, ./drip-sprinkler-fittings/Rain Hose Connector.png, ./drip-sprinkler-fittings/Rain Hose Connector.png, ./drip-sprinkler-fittings/Rain Hose Connector.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Rain Hose <span style="display: block;">Connector </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Rain Hose Connector">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Rain Hose End Stop.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Rain Hose End Stop.png, ./drip-sprinkler-fittings/Rain Hose End Stop.png, ./drip-sprinkler-fittings/Rain Hose End Stop.png, ./drip-sprinkler-fittings/Rain Hose End Stop.png, ./drip-sprinkler-fittings/Rain Hose End Stop.png, ./drip-sprinkler-fittings/Rain Hose End Stop.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Rain Hose End Stop<span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Rain Hose End Stop">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Rain Hose GTO.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Rain Hose GTO.png, ./drip-sprinkler-fittings/Rain Hose GTO.png, ./drip-sprinkler-fittings/Rain Hose GTO.png, ./drip-sprinkler-fittings/Rain Hose GTO.png, ./drip-sprinkler-fittings/Rain Hose GTO.png, ./drip-sprinkler-fittings/Rain Hose GTO.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Rain Hose GTO<span style="display: block;">&nbsp; </span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Rain Hose GTO">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/One Side Union ball vlalve.png" alt="collection-image" srcset="./drip-sprinkler-fittings/One Side Union ball vlalve.png, ./drip-sprinkler-fittings/One Side Union ball vlalve.png, ./drip-sprinkler-fittings/One Side Union ball vlalve.png, ./drip-sprinkler-fittings/One Side Union ball vlalve.png, ./drip-sprinkler-fittings/One Side Union ball vlalve.png, ./drip-sprinkler-fittings/One Side Union ball vlalve.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    One Side Union<span style="display: block;"> ball vlalve</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="One Side Union ball vlalve">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Drip PVC Ball Valve.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Drip PVC Ball Valve.png, ./drip-sprinkler-fittings/Drip PVC Ball Valve.png, ./drip-sprinkler-fittings/Drip PVC Ball Valve.png, ./drip-sprinkler-fittings/Drip PVC Ball Valve.png, ./drip-sprinkler-fittings/Drip PVC Ball Valve.png, ./drip-sprinkler-fittings/Drip PVC Ball Valve.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Drip PVC Ball<span style="display: block;">Valve</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Drip PVC Ball Valve">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/J Loc Emitter.png" alt="collection-image" srcset="./drip-sprinkler-fittings/J Loc Emitter.png, ./drip-sprinkler-fittings/J Loc Emitter.png, ./drip-sprinkler-fittings/J Loc Emitter.png, ./drip-sprinkler-fittings/J Loc Emitter.png, ./drip-sprinkler-fittings/J Loc Emitter.png, ./drip-sprinkler-fittings/J Loc Emitter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    J Loc Emitter<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="J Loc Emitter">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/J-Turbo Key Super.png" alt="collection-image" srcset="./drip-sprinkler-fittings/J-Turbo Key Super.png, ./drip-sprinkler-fittings/J-Turbo Key Super.png, ./drip-sprinkler-fittings/J-Turbo Key Super.png, ./drip-sprinkler-fittings/J-Turbo Key Super.png, ./drip-sprinkler-fittings/J-Turbo Key Super.png, ./drip-sprinkler-fittings/J-Turbo Key Super.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    J-Turbo Key Super<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="J-Turbo Key Super">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png" alt="collection-image" srcset="./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png, ./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png, ./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png, ./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png, ./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png, ./drip-sprinkler-fittings/J-turbo Key Plus Dripper.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    J-turbo Key Plus <span style="display: block;">Dripper</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="J-turbo Key Plus Dripper">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/J-Mini.png" alt="collection-image" srcset="./drip-sprinkler-fittings/J-Mini.png, ./drip-sprinkler-fittings/J-Mini.png, ./drip-sprinkler-fittings/J-Mini.png, ./drip-sprinkler-fittings/J-Mini.png, ./drip-sprinkler-fittings/J-Mini.png, ./drip-sprinkler-fittings/J-Mini.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    J-Mini <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="J-Mini">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Mini Air relase valves.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Mini Air relase valves.png, ./drip-sprinkler-fittings/Mini Air relase valves.png, ./drip-sprinkler-fittings/Mini Air relase valves.png, ./drip-sprinkler-fittings/Mini Air relase valves.png, ./drip-sprinkler-fittings/Mini Air relase valves.png, ./drip-sprinkler-fittings/Mini Air relase valves.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Mini Air Release <span style="display: block;">valves</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Mini Air relase valves">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Air Release valves.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Air Release valves.png, ./drip-sprinkler-fittings/Air Release valves.png, ./drip-sprinkler-fittings/Air Release valves.png, ./drip-sprinkler-fittings/Air Release valves.png, ./drip-sprinkler-fittings/Air Release valves.png, ./drip-sprinkler-fittings/Air Release valves.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Air Release <span style="display: block;">valves</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Air relase valves">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Grommet.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Grommet.png, ./drip-sprinkler-fittings/Grommet.png, ./drip-sprinkler-fittings/Grommet.png, ./drip-sprinkler-fittings/Grommet.png, ./drip-sprinkler-fittings/Grommet.png, ./drip-sprinkler-fittings/Grommet.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Grommet <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Grommet">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Grommet plug.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Grommet plug.png, ./drip-sprinkler-fittings/Grommet plug.png, ./drip-sprinkler-fittings/Grommet plug.png, ./drip-sprinkler-fittings/Grommet plug.png, ./drip-sprinkler-fittings/Grommet plug.png, ./drip-sprinkler-fittings/Grommet plug.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Grommet plug <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Grommet plug">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Top Hat Grommet.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Top Hat Grommet.png, ./drip-sprinkler-fittings/Top Hat Grommet.png, ./drip-sprinkler-fittings/Top Hat Grommet.png, ./drip-sprinkler-fittings/Top Hat Grommet.png, ./drip-sprinkler-fittings/Top Hat Grommet.png, ./drip-sprinkler-fittings/Top Hat Grommet.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Top Hat Grommet <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Top Hat Grommet">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Acurain RD 50 UNI.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Acurain RD 50 UNI.png, ./drip-sprinkler-fittings/Acurain RD 50 UNI.png, ./drip-sprinkler-fittings/Acurain RD 50 UNI.png, ./drip-sprinkler-fittings/Acurain RD 50 UNI.png, ./drip-sprinkler-fittings/Acurain RD 50 UNI.png, ./drip-sprinkler-fittings/Acurain RD 50 UNI.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Acurain RD 50 UNI <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Acurain RD 50 UNI">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/421.png" alt="collection-image" srcset="./drip-sprinkler-fittings/421.png, ./drip-sprinkler-fittings/421.png, ./drip-sprinkler-fittings/421.png, ./drip-sprinkler-fittings/421.png, ./drip-sprinkler-fittings/421.png, ./drip-sprinkler-fittings/421.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    421 <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="421">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/JI 6.png" alt="collection-image" srcset="./drip-sprinkler-fittings/JI 6.png, ./drip-sprinkler-fittings/JI 6.png, ./drip-sprinkler-fittings/JI 6.png, ./drip-sprinkler-fittings/JI 6.png, ./drip-sprinkler-fittings/JI 6.png, ./drip-sprinkler-fittings/JI 6.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    JI 6 <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="JI 6">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Tool For Drill Kit.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Tool For Drill Kit.png, ./drip-sprinkler-fittings/Tool For Drill Kit.png, ./drip-sprinkler-fittings/Tool For Drill Kit.png, ./drip-sprinkler-fittings/Tool For Drill Kit.png, ./drip-sprinkler-fittings/Tool For Drill Kit.png, ./drip-sprinkler-fittings/Tool For Drill Kit.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Tool For Drill Kit <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Tool For Drill Kit">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/SuperFlowLFilter.png" alt="collection-image" srcset="./drip-sprinkler-fittings/SuperFlowLFilter.png, ./drip-sprinkler-fittings/SuperFlowLFilter.png, ./drip-sprinkler-fittings/SuperFlowLFilter.png, ./drip-sprinkler-fittings/SuperFlowLFilter.png, ./drip-sprinkler-fittings/SuperFlowLFilter.png, ./drip-sprinkler-fittings/SuperFlowLFilter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    SuperFlowLFilter <span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="SuperFlowLFilter">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Super Flow COMBO Filter.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Super Flow COMBO Filter.png, ./drip-sprinkler-fittings/Super Flow COMBO Filter.png, ./drip-sprinkler-fittings/Super Flow COMBO Filter.png, ./drip-sprinkler-fittings/Super Flow COMBO Filter.png, ./drip-sprinkler-fittings/Super Flow COMBO Filter.png, ./drip-sprinkler-fittings/Super Flow COMBO Filter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Super Flow COMBO  <span style="display: block;">Filter</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Super Flow COMBO Filter">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/J turboline Super.png" alt="collection-image" srcset="./drip-sprinkler-fittings/J turboline Super.png, ./drip-sprinkler-fittings/J turboline Super.png, ./drip-sprinkler-fittings/J turboline Super.png, ./drip-sprinkler-fittings/J turboline Super.png, ./drip-sprinkler-fittings/J turboline Super.png, ./drip-sprinkler-fittings/J turboline Super.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    J turboline Super<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="J turboline Super">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Barbed Y.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Barbed Y.png, ./drip-sprinkler-fittings/Barbed Y.png, ./drip-sprinkler-fittings/Barbed Y.png, ./drip-sprinkler-fittings/Barbed Y.png, ./drip-sprinkler-fittings/Barbed Y.png, ./drip-sprinkler-fittings/Barbed Y.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Barbed Y<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Barbed Y">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Butterfly Sprinkler.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Butterfly Sprinkler.png, ./drip-sprinkler-fittings/Butterfly Sprinkler.png, ./drip-sprinkler-fittings/Butterfly Sprinkler.png, ./drip-sprinkler-fittings/Butterfly Sprinkler.png, ./drip-sprinkler-fittings/Butterfly Sprinkler.png, ./drip-sprinkler-fittings/Butterfly Sprinkler.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Butterfly <span style="display: block;">Sprinkler</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Butterfly Sprinkler">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Adaptor.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Adaptor.png, ./drip-sprinkler-fittings/Adaptor.png, ./drip-sprinkler-fittings/Adaptor.png, ./drip-sprinkler-fittings/Adaptor.png, ./drip-sprinkler-fittings/Adaptor.png, ./drip-sprinkler-fittings/Adaptor.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Adaptor<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Adaptor">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
-
-
-
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Tap with Threaded.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Tap with Threaded.png, ./drip-sprinkler-fittings/Tap with Threaded.png, ./drip-sprinkler-fittings/Tap with Threaded.png, ./drip-sprinkler-fittings/Tap with Threaded.png, ./drip-sprinkler-fittings/Tap with Threaded.png, ./drip-sprinkler-fittings/Tap with Threaded.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Tap with Threaded<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Tap with Threaded">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Rain Hose.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Rain Hose.png, ./drip-sprinkler-fittings/Rain Hose.png, ./drip-sprinkler-fittings/Rain Hose.png, ./drip-sprinkler-fittings/Rain Hose.png, ./drip-sprinkler-fittings/Rain Hose.png, ./drip-sprinkler-fittings/Rain Hose.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Rain Hose<span style="display: block;">&nbsp;</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Rain Hose">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10 ----------------------------------------------------------->
-<div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-    <div class="content-collection-text d-flex align-items-center justify-content-between">
-        <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./drip-sprinkler-fittings/Tough Hose Twin-line.png" alt="collection-image" srcset="./drip-sprinkler-fittings/Tough Hose Twin-line.png, ./drip-sprinkler-fittings/Tough Hose Twin-line.png, ./drip-sprinkler-fittings/Tough Hose Twin-line.png, ./drip-sprinkler-fittings/Tough Hose Twin-line.png, ./drip-sprinkler-fittings/Tough Hose Twin-line.png, ./drip-sprinkler-fittings/Tough Hose Twin-line.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-        </div>
-        <div class="content-text">
-            <div class="title line-clamp-1" style="color: #222222;">
-                <h3 style="display: inline-block;">
-                    Tough Hose<span style="display: block;"> Twin-line</span>
-                </h3>
-                            </div>
-            <ul>
-                
-                <li class="button_collection">
-                    <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Tough Hose Twin-line">
-                        <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<!-------------------------------------------- PVC Reducing Brass Threaded Tee - PN 10  ----------------------------------------------------------->
-
-
-
+                        </div>
                     </div>
                 </div>
             </div>
@@ -4694,13 +3879,6 @@
 
         </div>
     
-                   
-
-       
-
-                    
-       
-       
         <div id="shopify-section-template--20666939539732__e641f8cc-fb3b-4a8c-a25e-d8c1f7426367" class="shopify-section section-policy">
             <div class="distance wow fadeInUp animated">
 
@@ -4723,8 +3901,8 @@
 
                                     </div>
                                     <div class="heading--policy position-relative">
-                                        <div class="title-policy font-700 f_pr text-uppercase">BEST SERVICE</div>
-                                        <div class="desc-policy line-clamp-2  mt-5">Delivering top-tier solutions with unmatched service quality.</div>
+                                        <div class="title-policy font-700 f_pr text-uppercase">FREE US DELIVERY</div>
+                                        <div class="desc-policy line-clamp-2  mt-5">For US customers (including Alaska and Hawaii) or orders over $200</div>
 
                                     </div>
                                 </div>
@@ -4742,8 +3920,8 @@
 
                                     </div>
                                     <div class="heading--policy position-relative">
-                                        <div class="title-policy font-700 f_pr text-uppercase">AFFORDABLE PRICE</div>
-                                        <div class="desc-policy line-clamp-2  mt-5">"Providing exceptional service at competitive prices to fuel your business growth.</div>
+                                        <div class="title-policy font-700 f_pr text-uppercase">Secure payment</div>
+                                        <div class="desc-policy line-clamp-2  mt-5">We accept Visa, American Express, Paypal, Payoneer Mastercard and Discover</div>
 
                                     </div>
                                 </div>
@@ -4761,8 +3939,8 @@
 
                                     </div>
                                     <div class="heading--policy position-relative">
-                                        <div class="title-policy font-700 f_pr text-uppercase">RELIABLE PRODUCTS</div>
-                                        <div class="desc-policy line-clamp-2  mt-5">Every product we offer is carefully crafted with high-quality breands</div>
+                                        <div class="title-policy font-700 f_pr text-uppercase">1 year warranty</div>
+                                        <div class="desc-policy line-clamp-2  mt-5">All of our products are made with care and covered for one year against manufacturing defects</div>
 
                                     </div>
                                 </div>
@@ -4781,7 +3959,7 @@
                                     </div>
                                     <div class="heading--policy position-relative">
                                         <div class="title-policy font-700 f_pr text-uppercase">Support 24/7</div>
-                                        <div class="desc-policy line-clamp-2  mt-5">Contact us 24 hours a day, 7 days a week Call Us: 96555 88855</div>
+                                        <div class="desc-policy line-clamp-2  mt-5">Contact us 24 hours a day, 7 days a week Call Us: 0123-456-789</div>
 
                                     </div>
                                 </div>
@@ -5037,7 +4215,7 @@
                                             <div class="footertop-item__icon">
                                                 <i class="rbb-icon-time-2"></i>
                                             </div>
-                                            <span>Monday till Saturday 8 PM to 6 PM EST</span>
+                                            <span>Monday till Friday 10 to 6 EST</span>
                                         </div>
 
                                     </div>
@@ -5783,42 +4961,6 @@
         </span>
         </div>
     </div>
-
-    <!-- Whats app sending Script -->
-    <script>
-        // Function to handle WhatsApp message generation and redirection
-        function sendWhatsAppMessage(productName) {
-            const whatsappNumber = '8807865786';
-            const message = `I would like to purchase the following product: ${productName}`;
-    
-            // Generate WhatsApp API link
-            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
-    
-            // Open WhatsApp with the generated message
-            window.open(whatsappURL, '_blank');
-        }
-    
-        // Wait until the DOM content is fully loaded
-        document.addEventListener('DOMContentLoaded', function() {
-            // Add event listeners to all shop buttons
-            document.querySelectorAll('.shopButton').forEach(button => {
-                button.addEventListener('click', function(event) {
-                    event.preventDefault();
-                    const productName = this.getAttribute('data-product-name');
-                    
-                    // Debugging log to ensure product name is correctly retrieved
-                    console.log('Product Name:', productName);
-                    
-                    if (productName) {
-                        sendWhatsAppMessage(productName);
-                    } else {
-                        console.error('Product name is missing for this button.');
-                    }
-                });
-            });
-        });
-    </script>
-    
     <script src="./cdn/s/javascripts/currencies.js" type="text/javascript"></script>
     <script src="./cdn/shop/t/6/assets/jquery.currencies.min.js" type="text/javascript"></script>
     
