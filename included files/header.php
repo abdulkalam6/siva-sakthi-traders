@@ -1700,7 +1700,7 @@
 
 
                                         <li class="nav--lv1  last">
-                                            <a href="#" class="site-nav__link--main" title="Battery">
+                                            <a href="./grohe.php" class="site-nav__link--main" title="Battery">
 
                                                 <div class="site-nav--icon">
 

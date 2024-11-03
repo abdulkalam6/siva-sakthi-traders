@@ -1806,7 +1806,7 @@
                                 <a href="#" class="manufacture__link d-inline-block">
                                     <h1 style="text-align: center; display: block; width: 100%;">𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐁𝐑𝐀𝐍𝐃𝐒
                                     </h1>
-                                    <img src="./cdn/brand/nmp.png" alt="img-brand" width="220" loading="lazy" class="img-fluid">
+                                    <img src="./cdn/brand/grohe.jpg" alt="img-brand" width="220" loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -1848,12 +1848,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/bib cock.png" alt="collection-pvc-elbow-90" srcset="/nmp/SOLO/bib cock.png, /nmp/SOLO/bib cock.png, /nmp/SOLO/bib cock.png, /nmp/SOLO/bib cock.png, /nmp/SOLO/bib cock.png, /nmp/SOLO/bib cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-FLOW/pillar tap.png" alt="collection-pvc-elbow-90" srcset="./grohe/BAU-FLOW/pillar tap.png, ./grohe/BAU-FLOW/pillar tap.png, ./grohe/BAU-FLOW/pillar tap.png, ./grohe/BAU-FLOW/pillar tap.png, ./grohe/BAU-FLOW/pillar tap.png, ./grohe/BAU-FLOW/pillar tap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                bib cock<span style="display: block;">  </span>
+                piller tap<span style="display: block;">  </span>
                 </h3>
             </div>
             <ul>
@@ -1862,7 +1862,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="bib cock">
+                    <a href="#" class="shopButton" data-product-name="Piller Tap">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -1875,12 +1875,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/long nose.png" alt="collection-equal-elbow" srcset="./nmp/SOLO/long nose.png, ./nmp/SOLO/long nose.png, ./nmp/SOLO/long nose.png, ./nmp/SOLO/long nose.png, ./nmp/SOLO/long nose.png, ./nmp/SOLO/long nose.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/3 hole basin mixer.png" alt="collection-equal-elbow" srcset="./grohe/BAU-LOOP/3 hole basin mixer.png, ./grohe/BAU-LOOP/3 hole basin mixer.png, ./grohe/BAU-LOOP/3 hole basin mixer.png, ./grohe/BAU-LOOP/3 hole basin mixer.png, ./grohe/BAU-LOOP/3 hole basin mixer.png, ./grohe/BAU-LOOP/3 hole basin mixer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Long Nose <span style="display: block;"> </span>
+                    3 Hole Basin <span style="display: block;">mixer </span>
                 </h3>
             </div>
             <ul>
@@ -1889,7 +1889,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Long Nose">
+                    <a href="#" class="shopButton" data-product-name="3 Hole Basin Mixer">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -1905,12 +1905,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/angle cock.png" alt="collection-pvc-tree" srcset="./nmp/SOLO/angle cock.png, ./nmp/SOLO/angle cock.png, ./nmp/SOLO/angle cock.png, ./nmp/SOLO/angle cock.png, ./nmp/SOLO/angle cock.png, ./nmp/SOLO/angle cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png" alt="collection-pvc-tree" srcset="./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-FLOW/2 hole single level basin mixer wall mounted.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Angle Cock<span style="display: block;"> &nbsp; </span>
+                2 hole single level<span style="display: block;"> basin mixer wall mounted </span>
                 </h3>
             </div>  
             <ul>
@@ -1919,7 +1919,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Angle Cock">
+                    <a href="#" class="shopButton" data-product-name="2 hole single level basin mixer wall mounted">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -1934,12 +1934,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/concealed stop cock.png" alt="collection-image" srcset="./nmp/SOLO/concealed stop cock.png, ./nmp/SOLO/concealed stop cock.png, ./nmp/SOLO/concealed stop cock.png, ./nmp/SOLO/concealed stop cock.png, ./nmp/SOLO/concealed stop cock.png, ./nmp/SOLO/concealed stop cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/bib tap 2 in 1.png" alt="collection-image" srcset="./grohe/BAU-LOOP/bib tap 2 in 1.png, ./grohe/BAU-LOOP/bib tap 2 in 1.png, ./grohe/BAU-LOOP/bib tap 2 in 1.png, ./grohe/BAU-LOOP/bib tap 2 in 1.png, ./grohe/BAU-LOOP/bib tap 2 in 1.png, ./grohe/BAU-LOOP/bib tap 2 in 1.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Concealed Stop Cock<span style="display: block;"></span>
+                    bib tap <span style="display: block;">2 in 1</span>
                 </h3>
                             </div>
             <ul>
@@ -1948,7 +1948,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Concealed Stop Cock">
+                    <a href="#" class="shopButton" data-product-name="Bib Tap 2 in 1">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -1962,12 +1962,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/sink mixer.png" alt="collection-reducing" srcset="./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-FLOW/bib tap.png" alt="collection-reducing" srcset="./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png, ./nmp/SOLO/sink mixer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Sink Mixer<span style="display: block;"> </span>
+                    bib tap<span style="display: block;"> </span>
                 </h>
             </div>
             <ul>
@@ -1976,7 +1976,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Sink Mixer">
+                    <a href="#" class="shopButton" data-product-name="Bib Tap">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -1991,12 +1991,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/sink cock.png" alt="collection-male-threaded" srcset="./nmp/SOLO/sink cock.png, ./nmp/SOLO/sink cock.png, ./nmp/SOLO/sink cock.png, ./nmp/SOLO/sink cock.png, ./nmp/SOLO/sink cock.png, ./nmp/SOLO/sink cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/bath spout with diverter.png" alt="collection-male-threaded" srcset="./grohe/BAU-LOOP/bath spout with diverter.png, ./grohe/BAU-LOOP/bath spout with diverter.png, ./grohe/BAU-LOOP/bath spout with diverter.png, ./grohe/BAU-LOOP/bath spout with diverter.png, ./grohe/BAU-LOOP/bath spout with diverter.png, ./grohe/BAU-LOOP/bath spout with diverter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h4 style="display: inline-block;">
-                    Sink Cock<span style="display: block;"> </span>
+                Bath spout <span style="display: block;">with diverter </span>
                 </h4>
             </div>
             <ul>
@@ -2005,7 +2005,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Sink Cock">
+                    <a href="#" class="shopButton" data-product-name="Bath spout with diverter">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2022,12 +2022,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/2 in 1 bib cock.png" alt="collection-female-threaded" srcset="./nmp/SOLO/2 in 1 bib cock.png, ./nmp/SOLO/2 in 1 bib cock.png, ./nmp/SOLO/2 in 1 bib cock.png, ./nmp/SOLO/2 in 1 bib cock.png, ./nmp/SOLO/2 in 1 bib cock.png, ./nmp/SOLO/2 in 1 bib cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/bath spout.png" alt="collection-female-threaded" srcset="./grohe/BAU-LOOP/bath spout.png, ./grohe/BAU-LOOP/bath spout.png, ./grohe/BAU-LOOP/bath spout.png, ./grohe/BAU-LOOP/bath spout.png, ./grohe/BAU-LOOP/bath spout.png, ./grohe/BAU-LOOP/bath spout.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    2 in 1 bib cock<span style="display: block;">  </span>
+                Bath spout <span style="display: block;">  </span>
                 </h3>
             </div>
             <ul>
@@ -2036,7 +2036,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="2 in 1 bib cock">
+                    <a href="#" class="shopButton" data-product-name="Bath spout">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2052,12 +2052,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/2 in 1 angle cock.png" alt="collection-end-cap" srcset="./nmp/SOLO/2 in 1 angle cock.png, ./nmp/SOLO/2 in 1 angle cock.png, ./nmp/SOLO/2 in 1 angle cock.png, ./nmp/SOLO/2 in 1 angle cock.png, ./nmp/SOLO/2 in 1 angle cock.png, ./nmp/SOLO/2 in 1 angle cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/shower valve.png" alt="collection-end-cap" srcset="./grohe/BAU-LOOP/shower valve.png, ./grohe/BAU-LOOP/shower valve.png, ./grohe/BAU-LOOP/shower valve.png, ./grohe/BAU-LOOP/shower valve.png, ./grohe/BAU-LOOP/shower valve.png, ./grohe/BAU-LOOP/shower valve.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    2 in 1 Angle Cock<span style="display: block;"></span>
+                    Shower Valve<span style="display: block;"></span>
                 </h3>
             </div>
             <ul>
@@ -2066,7 +2066,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="2 in 1 Angle Cock">
+                    <a href="#" class="shopButton" data-product-name="Shower Valve">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2080,12 +2080,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/swan neck.png" alt="collection-reducers" srcset="./nmp/SOLO/swan neck.png, ./nmp/SOLO/swan neck.png, ./nmp/SOLO/swan neck.png, ./nmp/SOLO/swan neck.png, ./nmp/SOLO/swan neck.png, ./nmp/SOLO/swan neck.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/angle valve.png" alt="collection-reducers" srcset="./grohe/BAU-LOOP/angle valve.png, ./grohe/BAU-LOOP/angle valve.png, ./grohe/BAU-LOOP/angle valve.png, ./grohe/BAU-LOOP/angle valve.png, ./grohe/BAU-LOOP/angle valve.png, ./grohe/BAU-LOOP/angle valve.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Swan Neck<span style="display: block;"></span>
+                    Angle Valve<span style="display: block;"></span>
                 </h3>
             </div>
             <ul>
@@ -2094,7 +2094,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="PVC Reducers - PN 10">
+                    <a href="#" class="shopButton" data-product-name="Angle Valve">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2110,12 +2110,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/washing machine tap.png" alt="collection-reducing-bush" srcset="./nmp/SOLO/washing machine tap.png, ./nmp/SOLO/washing machine tap.png, ./nmp/SOLO/washing machine tap.png, ./nmp/SOLO/washing machine tap.png, ./nmp/SOLO/washing machine tap.png, ./nmp/SOLO/washing machine tap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/single lever bath mixer.png" alt="collection-reducing-bush" srcset="./grohe/BAU-LOOP/single lever bath mixer.png, ./grohe/BAU-LOOP/single lever bath mixer.png, ./grohe/BAU-LOOP/single lever bath mixer.png, ./grohe/BAU-LOOP/single lever bath mixer.png, ./grohe/BAU-LOOP/single lever bath mixer.png, ./grohe/BAU-LOOP/single lever bath mixer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Washing Machine Tap<span style="display: block;"> </span>
+                    Single lever <span style="display: block;">bath mixer</span>
                 </h3>
             </div>
             <ul>
@@ -2124,7 +2124,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Washing Machine Tap">
+                    <a href="#" class="shopButton" data-product-name="Single Lever Bath Mixer">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2140,12 +2140,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/nozzle cock.png" alt="collection-union-plain" srcset="./nmp/SOLO/nozzle cock.png, ./nmp/SOLO/nozzle cock.png, ./nmp/SOLO/nozzle cock.png, ./nmp/SOLO/nozzle cock.png, ./nmp/SOLO/nozzle cock.png, ./nmp/SOLO/nozzle cock.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png" alt="collection-union-plain" srcset="./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png, ./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png, ./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png, ./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png, ./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png, ./grohe/BAU-LOOP/single lever bath shower mixer with automatic driver.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                    Nozzle Cock<span style="display: block;"></span>
+                single lever bath shower <span style="display: block;"> mixer with automatic driver</span>
                 </h3>
             </div>
             <ul>
@@ -2154,7 +2154,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="Nozzle Cock">
+                    <a href="#" class="shopButton" data-product-name="single lever bath shower mixer with automatic driver">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2170,12 +2170,12 @@
 <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
     <div class="content-collection-text d-flex align-items-center justify-content-between">
         <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/SOLO/2 in 1 wall mixer with L bend.png" alt="collection-cross-tree" srcset="./nmp/SOLO/2 in 1 wall mixer with L bend.png, ./nmp/SOLO/2 in 1 wall mixer with L bend.png, ./nmp/SOLO/2 in 1 wall mixer with L bend.png, ./nmp/SOLO/2 in 1 wall mixer with L bend.png, ./nmp/SOLO/2 in 1 wall mixer with L bend.png, ./nmp/SOLO/2 in 1 wall mixer with L bend.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/single lever bath shower micer.png" alt="collection-cross-tree" srcset="./grohe/BAU-LOOP/single lever bath shower micer.png, ./grohe/BAU-LOOP/single lever bath shower micer.png, ./grohe/BAU-LOOP/single lever bath shower micer.png, ./grohe/BAU-LOOP/single lever bath shower micer.png, ./grohe/BAU-LOOP/single lever bath shower micer.png, ./grohe/BAU-LOOP/single lever bath shower micer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
         </div>
         <div class="content-text">
             <div class="title line-clamp-1" style="color: #222222;">
                 <h3 style="display: inline-block;">
-                2 in 1 wall mixer with L bend <span style="display: block;">  &nbsp; </span>
+                single lever bath  <span style="display: block;">  shower mixer </span>
                 </h3>
             </div>
             <ul>
@@ -2184,7 +2184,7 @@
                 </li>
                 <li class="button_collection">
                     <!-- Shop Button -->
-                    <a href="#" class="shopButton" data-product-name="2 in 1 wall mixer with L bend">
+                    <a href="#" class="shopButton" data-product-name="single lever bath shower mixer">
                         <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                     </a>
                 </li>
@@ -2201,12 +2201,12 @@
      <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png" alt="collection-pvc-elbow" srcset="./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/single lever shower micer exposed.png" alt="collection-equal-elbow" srcset="./grohe/BAU-LOOP/single lever shower micer exposed.png, ./grohe/BAU-LOOP/single lever shower micer exposed.png, ./grohe/BAU-LOOP/single lever shower micer exposed.png, ./grohe/BAU-LOOP/single lever shower micer exposed.png, ./grohe/BAU-LOOP/single lever shower micer exposed.png, ./grohe/BAU-LOOP/single lever shower micer exposed.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        Towel Rod<span style="display: block;"> &nbsp; </span>
+                    single lever <span style="display: block;"> bath mixer exposed </span>
                     </h3>
                 </div>
                 <ul>
@@ -2215,7 +2215,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Towel Rod ">
+                        <a href="#" class="shopButton" data-product-name="single lever bath mixer exposed ">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2228,12 +2228,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png" alt="collection-equal-elbow" srcset="./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP soap dish.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-LOOP/single lever bath mixer exposed.png" alt="collection-pvc-elbow" srcset="./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png, ./nmp/ROSE BATH ACCESSORIES/SP towel rod 18_ 24_.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP Soap Dish <span style="display: block;"> &nbsp; </span>
+                    single lever  <span style="display: block;"> bath mixer exposed </span>
                     </h3>
                 </div>
                 <ul>
@@ -2242,7 +2242,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Soap Dish">
+                        <a href="#" class="shopButton" data-product-name="single lever bath mixer exposed">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2258,12 +2258,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png" alt="collection-pvc-tree" srcset="./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP tumbler holder.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/3 in 1 basin mixer.png" alt="collection-pvc-tree" srcset="./grohe/BAU-EDGE/3 in 1 basin mixer.png, ./grohe/BAU-EDGE/3 in 1 basin mixer.png, ./grohe/BAU-EDGE/3 in 1 basin mixer.png, ./grohe/BAU-EDGE/3 in 1 basin mixer.png, ./grohe/BAU-EDGE/3 in 1 basin mixer.png, ./grohe/BAU-EDGE/3 in 1 basin mixer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP Tumbler Holder<span style="display: block;">  </span>
+                    3 in 1 basin <span style="display: block;"> mixer </span>
                     </h3>
                 </div>  
                 <ul>
@@ -2272,7 +2272,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Tumbler Holder">
+                        <a href="#" class="shopButton" data-product-name="3 in 1 basin mixer">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2287,12 +2287,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png" alt="collection-image" srcset="./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP towel ring.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png" alt="collection-image" srcset="./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png, ./grohe/BAU-EDGE/2 hole single level basin mixer wall mounted.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h4 style="display: inline-block;">
-                        SSCP Towel Ring<span style="display: block;"></span>
+                    2 hole single level <span style="display: block;">basin mixer wall mounted</span>
                     </h4>
                                 </div>
                 <ul>
@@ -2301,7 +2301,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Towel Ring">
+                        <a href="#" class="shopButton" data-product-name="2 hole single level basin mixer wall mounted">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2315,12 +2315,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png" alt="collection-reducing" srcset="./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png, ./nmp/ROSE BATH ACCESSORIES/SSCP robe ring.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/2 in 1 bib tap.png" alt="collection-reducing" srcset="./grohe/BAU-EDGE/2 in 1 bib tap.png, ./grohe/BAU-EDGE/2 in 1 bib tap.png, ./grohe/BAU-EDGE/2 in 1 bib tap.png, ./grohe/BAU-EDGE/2 in 1 bib tap.png, ./grohe/BAU-EDGE/2 in 1 bib tap.png, ./grohe/BAU-EDGE/2 in 1 bib tap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP Robe Ring<span style="display: block;">  </span>
+                        Bib Tap 2 in 1<span style="display: block;"></span>
                     </h>
                 </div>
                 <ul>
@@ -2329,7 +2329,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Robe Ring">
+                        <a href="#" class="shopButton" data-product-name="Bib Tap 2 in 1">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2346,12 +2346,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png" alt="collection-end-cap" srcset="./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png, ./nmp/ROSE BATH ACCESSORIES/SSCP double soap dish.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/bib tap.png" alt="collection-end-cap" srcset="./grohe/BAU-EDGE/bib tap.png, ./grohe/BAU-EDGE/bib tap.png, ./grohe/BAU-EDGE/bib tap.png, ./grohe/BAU-EDGE/bib tap.png, ./grohe/BAU-EDGE/bib tap.png, ./grohe/BAU-EDGE/bib tap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP Double <span style="display: block;">  Soap Dish</span>
+                        Bib Tap<span style="display: block;"></span>
                     </h3>
                 </div>
                 <ul>
@@ -2360,7 +2360,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Double Soap Dish">
+                        <a href="#" class="shopButton" data-product-name="bib tap">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2374,12 +2374,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png" alt="collection-reducers" srcset="./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png, ./nmp/ROSE BATH ACCESSORIES/SSCP dish with tumbler holder.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/bath spout with diverter.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/bath spout with diverter.png, ./grohe/BAU-EDGE/bath spout with diverter.png, ./grohe/BAU-EDGE/bath spout with diverter.png, ./grohe/BAU-EDGE/bath spout with diverter.png, ./grohe/BAU-EDGE/bath spout with diverter.png, ./grohe/BAU-EDGE/bath spout with diverter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP Dish with<span style="display: block;"> Tumbler Holder</span>
+                    bath spout <span style="display: block;">with diverter </span>
                     </h3>
                 </div>
                 <ul>
@@ -2388,7 +2388,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Dish with Tumbler Holder">
+                        <a href="#" class="shopButton" data-product-name="bath spout with diverter">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2402,12 +2402,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP towel ring.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP towel ring.png, ./nmp/PREMIUM BATH SET/SSCP towel ring.png, ./nmp/PREMIUM BATH SET/SSCP towel ring.png, ./nmp/PREMIUM BATH SET/SSCP towel ring.png, ./nmp/PREMIUM BATH SET/SSCP towel ring.png, ./nmp/PREMIUM BATH SET/SSCP towel ring.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/bath spout.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/bath spout.png, ./grohe/BAU-EDGE/bath spout.png, ./grohe/BAU-EDGE/bath spout.png, ./grohe/BAU-EDGE/bath spout.png, ./grohe/BAU-EDGE/bath spout.png, ./grohe/BAU-EDGE/bath spout.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP 15 Towel<span style="display: block;"> Ring</span>
+                        Bath Spout<span style="display: block;"> </span>
                     </h3>
                 </div>
                 <ul>
@@ -2416,7 +2416,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP 15 Towel Ring">
+                        <a href="#" class="shopButton" data-product-name="Bath spout">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2430,12 +2430,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP soap dish.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP soap dish.png, ./nmp/PREMIUM BATH SET/SSCP soap dish.png, ./nmp/PREMIUM BATH SET/SSCP soap dish.png, ./nmp/PREMIUM BATH SET/SSCP soap dish.png, ./nmp/PREMIUM BATH SET/SSCP soap dish.png, ./nmp/PREMIUM BATH SET/SSCP soap dish.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/angle valve.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/angle valve.png, ./grohe/BAU-EDGE/angle valve.png, ./grohe/BAU-EDGE/angle valve.png, ./grohe/BAU-EDGE/angle valve.png, ./grohe/BAU-EDGE/angle valve.png, ./grohe/BAU-EDGE/angle valve.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP13 Soap Dish<span style="display: block;"> </span>
+                    Angle Valve, <span style="display: block;">1/2" Inlet, 1/2" Outlet </span>
                     </h3>
                 </div>
                 <ul>
@@ -2444,7 +2444,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP13 Soap Dish">
+                        <a href="#" class="shopButton" data-product-name="Angle Valve, 1/2 Inlet, 1/2 Outlet">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2458,12 +2458,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP soap dish-2.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP soap dish-2.png, ./nmp/PREMIUM BATH SET/SSCP soap dish-2.png, ./nmp/PREMIUM BATH SET/SSCP soap dish-2.png, ./nmp/PREMIUM BATH SET/SSCP soap dish-2.png, ./nmp/PREMIUM BATH SET/SSCP soap dish-2.png, ./nmp/PREMIUM BATH SET/SSCP soap dish-2.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-EDGE/box.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/box.png, ./grohe/BAU-EDGE/box.png, ./grohe/BAU-EDGE/box.png, ./grohe/BAU-EDGE/box.png, ./grohe/BAU-EDGE/box.png, ./grohe/BAU-EDGE/box.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP13A Soap Dish<span style="display: block;"> </span>
+                    single lever bath <span style="display: block;"> shower mixer with automatic diverter</span>
                     </h3>
                 </div>
                 <ul>
@@ -2472,7 +2472,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP13A Soap Dish">
+                        <a href="#" class="shopButton" data-product-name="single lever bath shower mixer with automatic diverter square shape wall attach">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2486,12 +2486,13 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP tumbler holder.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP tumbler holder.png, ./nmp/PREMIUM BATH SET/SSCP tumbler holder.png, ./nmp/PREMIUM BATH SET/SSCP tumbler holder.png, ./nmp/PREMIUM BATH SET/SSCP tumbler holder.png, ./nmp/PREMIUM BATH SET/SSCP tumbler holder.png, ./nmp/PREMIUM BATH SET/SSCP tumbler holder.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP14 Tumbler Holder<span style="display: block;"> </span>
+                    single lever bath <span style="display: block;"> shower mixer with automatic diverter</span>
                     </h3>
                 </div>
                 <ul>
@@ -2500,7 +2501,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP14 Tumbler Holder">
+                        <a href="#" class="shopButton" data-product-name="single lever bath shower mixer with automatic diverter">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2514,12 +2515,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP double dish soap.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP double dish soap.png, ./nmp/PREMIUM BATH SET/SSCP double dish soap.png, ./nmp/PREMIUM BATH SET/SSCP double dish soap.png, ./nmp/PREMIUM BATH SET/SSCP double dish soap.png, ./nmp/PREMIUM BATH SET/SSCP double dish soap.png, ./nmp/PREMIUM BATH SET/SSCP double dish soap.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png, ./grohe/BAU-EDGE/single lever bath shower mixer with automatic diverter.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP17 Double Dish<span style="display: block;"> Soap</span>
+                    single lever bath <span style="display: block;"> shower mixer with automatic diverter </span>
                     </h3>
                 </div>
                 <ul>
@@ -2528,7 +2529,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP17 Double Dish Soap">
+                        <a href="#" class="shopButton" data-product-name="single lever bath shower mixer with automatic diverter">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2544,12 +2545,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP robe hook.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP robe hook.png, ./nmp/PREMIUM BATH SET/SSCP robe hook.png, ./nmp/PREMIUM BATH SET/SSCP robe hook.png, ./nmp/PREMIUM BATH SET/SSCP robe hook.png, ./nmp/PREMIUM BATH SET/SSCP robe hook.png, ./nmp/PREMIUM BATH SET/SSCP robe hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/showe mixer.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/showe mixer.png, ./grohe/BAU-EDGE/showe mixer.png, ./grohe/BAU-EDGE/showe mixer.png, ./grohe/BAU-EDGE/showe mixer.png, ./grohe/BAU-EDGE/showe mixer.png, ./grohe/BAU-EDGE/showe mixer.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP Robe Hook<span style="display: block;"></span>
+                    Single-lever <span style="display: block;"> shower mixer</span>
                     </h3>
                 </div>
                 <ul>
@@ -2558,36 +2559,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Robe Hook">
-                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
-    
-    
-    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
-    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
-        <div class="content-collection-text d-flex align-items-center justify-content-between">
-            <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png" alt="collection-reducers" srcset="./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png, ./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png, ./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png, ./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png, ./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png, ./nmp/PREMIUM BATH SET/SSCP towel holder 18_ 24_.png" width="200" height="200.0" loading="lazy" class="img-fluid">
-            </div>
-            <div class="content-text">
-                <div class="title line-clamp-1" style="color: #222222;">
-                    <h3 style="display: inline-block;">
-                        SSCP Towel Rod<span style="display: block;"></span>
-                    </h3>
-                </div>
-                <ul>
-                    <li>
-                       
-                    </li>
-                    <li class="button_collection">
-                        <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP Towel Rod">
+                        <a href="#" class="shopButton" data-product-name="Single-lever shower mixer">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2602,12 +2574,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png" alt="collection-reducers" srcset="./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png, ./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png, ./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png, ./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png, ./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png, ./nmp/BUDGET BATH SET/SSCP towel rod 18_ 24_ 30_ 36_.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/BAU-EDGE/order concealed body.png" alt="collection-reducers" srcset="./grohe/BAU-EDGE/order concealed body.png, ./grohe/BAU-EDGE/order concealed body.png, ./grohe/BAU-EDGE/order concealed body.png, ./grohe/BAU-EDGE/order concealed body.png, ./grohe/BAU-EDGE/order concealed body.png, ./grohe/BAU-EDGE/order concealed body.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP19 Towel Rod<span style="display: block;"></span>
+                    Single-lever bath<span style="display: block;">shower mixer</span>
                     </h3>
                 </div>
                 <ul>
@@ -2616,7 +2588,36 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP19 Towel Rod">
+                        <a href="#" class="shopButton" data-product-name="Single-lever bath/shower mixer">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/nonamedone/600 mm rail.png" alt="collection-reducers" srcset="./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    New Tempesta Cosmopolitan<span style="display: block;"> 100 with 600mm Rail, 4 Sprays, 9.5L</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="New Tempesta Cosmopolitan 100 with 600mm Rail, 4 Sprays, 9.5L">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2630,12 +2631,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png" alt="collection-reducers" srcset="./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png, ./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png, ./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png, ./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png, ./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png, ./nmp/BUDGET BATH SET/SSCP towel rod hook 18_ 24_.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/900 mm rail.png" alt="collection-reducers" srcset="./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP24 Towel Rod<span style="display: block;"></span>
+                    New Tempesta Cosmopolitan <span style="display: block;">100 with 900mm Rail, 3 Sprays</span>
                     </h3>
                 </div>
                 <ul>
@@ -2644,7 +2645,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP24 Towel Rod">
+                        <a href="#" class="shopButton" data-product-name="New Tempesta Cosmopolitan 100 with 900mm Rail, 3 Sprays">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2658,12 +2659,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/BUDGET BATH SET/SSCP soap dish.png" alt="collection-reducers" srcset="./nmp/BUDGET BATH SET/SSCP soap dish.png, ./nmp/BUDGET BATH SET/SSCP soap dish.png, ./nmp/BUDGET BATH SET/SSCP soap dish.png, ./nmp/BUDGET BATH SET/SSCP soap dish.png, ./nmp/BUDGET BATH SET/SSCP soap dish.png, ./nmp/BUDGET BATH SET/SSCP soap dish.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/nonamedone/900 mm rail.png" alt="collection-reducers" srcset="./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png, ./grohe/nonamedone/900 mm rail.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                        SSCP20 Soap Dish<span style="display: block;"></span>
+                    New Tempesta Cosmopolitan  <span style="display: block;">100 with 900mm Rail, 2 Sprays</span>
                     </h3>
                 </div>
                 <ul>
@@ -2672,7 +2673,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP20 Soap Dish">
+                        <a href="#" class="shopButton" data-product-name="New Tempesta Cosmopolitan 100 with 900mm Rail, 2 Sprays">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2686,12 +2687,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/BUDGET BATH SET/SSCP tumbler holder.png" alt="collection-reducers" srcset="./nmp/BUDGET BATH SET/SSCP tumbler holder.png, ./nmp/BUDGET BATH SET/SSCP tumbler holder.png, ./nmp/BUDGET BATH SET/SSCP tumbler holder.png, ./nmp/BUDGET BATH SET/SSCP tumbler holder.png, ./nmp/BUDGET BATH SET/SSCP tumbler holder.png, ./nmp/BUDGET BATH SET/SSCP tumbler holder.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            <img src="./grohe/nonamedone/600 mm rail.png" alt="collection-reducers" srcset="./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png, ./grohe/nonamedone/600 mm rail.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    SSCP21 Tumbler Holder<span style="display: block;"></span>
+                    New Tempesta Cosmopolitan <span style="display: block;">100 with 600mm Rail, 3 Sprays</span>
                     </h3>
                 </div>
                 <ul>
@@ -2700,7 +2701,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SSCP21 Tumbler Holder">
+                        <a href="#" class="shopButton" data-product-name="New Tempesta Cosmopolitan 100 with 600mm Rail, 3 Sprays">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2714,12 +2715,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/BUDGET BATH SET/SSCP towel ring.png" alt="collection-reducers" srcset="./nmp/BUDGET BATH SET/SSCP towel ring.png, ./nmp/BUDGET BATH SET/SSCP towel ring.png, ./nmp/BUDGET BATH SET/SSCP towel ring.png, ./nmp/BUDGET BATH SET/SSCP towel ring.png, ./nmp/BUDGET BATH SET/SSCP towel ring.png, ./nmp/BUDGET BATH SET/SSCP towel ring.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png" alt="collection-reducers" srcset="./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    SSCP22 Towel Ring<span style="display: block;"></span>
+                    New Tempesta 200, <span style="display: block;">Shower: 1 Spray, Hand Shower: 2 Sprays</span>
                     </h3>
                 </div>
                 <ul>
@@ -2728,7 +2729,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name=" SSCP22 Towel Ring">
+                        <a href="#" class="shopButton" data-product-name=" New Tempesta 200, Shower: 1 Spray, Hand Shower: 2 Sprays">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2742,12 +2743,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/BUDGET BATH SET/SSCP robe hook.png" alt="collection-reducers" srcset="./nmp/BUDGET BATH SET/SSCP robe hook.png, ./nmp/BUDGET BATH SET/SSCP robe hook.png, ./nmp/BUDGET BATH SET/SSCP robe hook.png, ./nmp/BUDGET BATH SET/SSCP robe hook.png, ./nmp/BUDGET BATH SET/SSCP robe hook.png, ./nmp/BUDGET BATH SET/SSCP robe hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png" alt="collection-reducers" srcset="./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png, ./grohe/nonamedone/New Tempesta 200, Shower 2 sprays handshower.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    SSCP23 Robe Hook<span style="display: block;"></span>
+                    New Tempesta 200, Shower: 2 Sprays, <span style="display: block;">Hand Shower: 4 Sprays</span>
                     </h3>
                 </div>
                 <ul>
@@ -2756,7 +2757,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name=" SSCP22 Towel Ring">
+                        <a href="#" class="shopButton" data-product-name=" New Tempesta 200, Shower: 2 Sprays, Hand Shower: 4 Sprays">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2770,12 +2771,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SSCP BEND SHOWERS/plumber.png" alt="collection-reducers" srcset="./nmp/SSCP BEND SHOWERS/plumber.png, ./nmp/SSCP BEND SHOWERS/plumber.png, ./nmp/SSCP BEND SHOWERS/plumber.png, ./nmp/SSCP BEND SHOWERS/plumber.png, ./nmp/SSCP BEND SHOWERS/plumber.png, ./nmp/SSCP BEND SHOWERS/plumber.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/skate cosmoplate stainless steel.png" alt="collection-reducers" srcset="./grohe/nonamedone/skate cosmoplate stainless steel.png, ./grohe/nonamedone/skate cosmoplate stainless steel.png, ./grohe/nonamedone/skate cosmoplate stainless steel.png, ./grohe/nonamedone/skate cosmoplate stainless steel.png, ./grohe/nonamedone/skate cosmoplate stainless steel.png, ./grohe/nonamedone/skate cosmoplate stainless steel.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Plumber<span style="display: block;"></span>
+                    skate cosmoplate <span style="display: block;">stainless steel</span>
                     </h3>
                 </div>
                 <ul>
@@ -2784,7 +2785,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name=" Plumber">
+                        <a href="#" class="shopButton" data-product-name=" skate cosmoplate stainless steel">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2800,12 +2801,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SSCP BEND SHOWERS/3_ waterfall.png" alt="collection-reducers" srcset="./nmp/SSCP BEND SHOWERS/3_ waterfall.png, ./nmp/SSCP BEND SHOWERS/3_ waterfall.png, ./nmp/SSCP BEND SHOWERS/3_ waterfall.png, ./nmp/SSCP BEND SHOWERS/3_ waterfall.png, ./nmp/SSCP BEND SHOWERS/3_ waterfall.png, ./nmp/SSCP BEND SHOWERS/3_ waterfall.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/arena cosmopolitan horizontal.png" alt="collection-reducers" srcset="./grohe/nonamedone/arena cosmopolitan horizontal.png, ./grohe/nonamedone/arena cosmopolitan horizontal.png, ./grohe/nonamedone/arena cosmopolitan horizontal.png, ./grohe/nonamedone/arena cosmopolitan horizontal.png, ./grohe/nonamedone/arena cosmopolitan horizontal.png, ./grohe/nonamedone/arena cosmopolitan horizontal.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    3 Water Fall<span style="display: block;"></span>
+                    arena cosmopolitan <span style="display: block;">horizontal</span>
                     </h3>
                 </div>
                 <ul>
@@ -2814,7 +2815,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="3 Water Fall">
+                        <a href="#" class="shopButton" data-product-name="arena cosmopolitan horizontal">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2828,12 +2829,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SSCP BEND SHOWERS/star.png" alt="collection-reducers" srcset="./nmp/SSCP BEND SHOWERS/star.png, ./nmp/SSCP BEND SHOWERS/star.png, ./nmp/SSCP BEND SHOWERS/star.png, ./nmp/SSCP BEND SHOWERS/star.png, ./nmp/SSCP BEND SHOWERS/star.png, ./nmp/SSCP BEND SHOWERS/star.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/skate cosmplate urinal plate.png" alt="collection-reducers" srcset="./grohe/nonamedone/skate cosmplate urinal plate.png, ./grohe/nonamedone/skate cosmplate urinal plate.png, ./grohe/nonamedone/skate cosmplate urinal plate.png, ./grohe/nonamedone/skate cosmplate urinal plate.png, ./grohe/nonamedone/skate cosmplate urinal plate.png, ./grohe/nonamedone/skate cosmplate urinal plate.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Star<span style="display: block;"></span>
+                    skate cosmplate <span style="display: block;">urinal plate</span>
                     </h3>
                 </div>
                 <ul>
@@ -2842,7 +2843,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Star">
+                        <a href="#" class="shopButton" data-product-name="skate cosmplate urinal plate">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2856,12 +2857,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SSCP BEND SHOWERS/delta.png" alt="collection-reducers" srcset="./nmp/SSCP BEND SHOWERS/delta.png, ./nmp/SSCP BEND SHOWERS/delta.png, ./nmp/SSCP BEND SHOWERS/delta.png, ./nmp/SSCP BEND SHOWERS/delta.png, ./nmp/SSCP BEND SHOWERS/delta.png, ./nmp/SSCP BEND SHOWERS/delta.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/arena cosmopolitan.png" alt="collection-reducers" srcset="./grohe/nonamedone/arena cosmopolitan.png, ./grohe/nonamedone/arena cosmopolitan.png, ./grohe/nonamedone/arena cosmopolitan.png, ./grohe/nonamedone/arena cosmopolitan.png, ./grohe/nonamedone/arena cosmopolitan.png, ./grohe/nonamedone/arena cosmopolitan.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Delta<span style="display: block;"></span>
+                    arena cosmopolitan<span style="display: block;"></span>
                     </h3>
                 </div>
                 <ul>
@@ -2870,7 +2871,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Delta">
+                        <a href="#" class="shopButton" data-product-name="arena cosmopolitan">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2884,12 +2885,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SSCP BEND SHOWERS/desire.png" alt="collection-reducers" srcset="./nmp/SSCP BEND SHOWERS/desire.png, ./nmp/SSCP BEND SHOWERS/desire.png, ./nmp/SSCP BEND SHOWERS/desire.png, ./nmp/SSCP BEND SHOWERS/desire.png, ./nmp/SSCP BEND SHOWERS/desire.png, ./nmp/SSCP BEND SHOWERS/desire.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/skate cosmoplate.png" alt="collection-reducers" srcset="./grohe/nonamedone/skate cosmoplate.png, ./grohe/nonamedone/skate cosmoplate.png, ./grohe/nonamedone/skate cosmoplate.png, ./grohe/nonamedone/skate cosmoplate.png, ./grohe/nonamedone/skate cosmoplate.png, ./grohe/nonamedone/skate cosmoplate.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Desire<span style="display: block;"></span>
+                    skate cosmoplate<span style="display: block;"></span>
                     </h3>
                 </div>
                 <ul>
@@ -2898,7 +2899,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Desire">
+                        <a href="#" class="shopButton" data-product-name="skate cosmoplate">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2912,12 +2913,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SSCP BEND SHOWERS/amaze.png" alt="collection-reducers" srcset="./nmp/SSCP BEND SHOWERS/amaze.png, ./nmp/SSCP BEND SHOWERS/amaze.png, ./nmp/SSCP BEND SHOWERS/amaze.png, ./nmp/SSCP BEND SHOWERS/amaze.png, ./nmp/SSCP BEND SHOWERS/amaze.png, ./nmp/SSCP BEND SHOWERS/amaze.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/skate cosmoplate urinal.png" alt="collection-reducers" srcset="./grohe/nonamedone/skate cosmoplate urinal.png, ./grohe/nonamedone/skate cosmoplate urinal.png, ./grohe/nonamedone/skate cosmoplate urinal.png, ./grohe/nonamedone/skate cosmoplate urinal.png, ./grohe/nonamedone/skate cosmoplate urinal.png, ./grohe/nonamedone/skate cosmoplate urinal.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Amaze<span style="display: block;"></span>
+                    skate cosmoplate <span style="display: block;">urinal</span>
                     </h3>
                 </div>
                 <ul>
@@ -2926,7 +2927,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Amaze">
+                        <a href="#" class="shopButton" data-product-name="skate cosmoplate urinal">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2940,12 +2941,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/HEALTH FAUCETS/new jayco without hook.png" alt="collection-reducers" srcset="./nmp/HEALTH FAUCETS/new jayco without hook.png, ./nmp/HEALTH FAUCETS/new jayco without hook.png, ./nmp/HEALTH FAUCETS/new jayco without hook.png, ./nmp/HEALTH FAUCETS/new jayco without hook.png, ./nmp/HEALTH FAUCETS/new jayco without hook.png, ./nmp/HEALTH FAUCETS/new jayco without hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/rapdi sl concealed cristen.png" alt="collection-reducers" srcset="./grohe/nonamedone/rapdi sl concealed cristen.png, ./grohe/nonamedone/rapdi sl concealed cristen.png, ./grohe/nonamedone/rapdi sl concealed cristen.png, ./grohe/nonamedone/rapdi sl concealed cristen.png, ./grohe/nonamedone/rapdi sl concealed cristen.png, ./grohe/nonamedone/rapdi sl concealed cristen.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    New Jayco Without<span style="display: block;">Hook</span>
+                    Rapid SL Concealed Cistern <span style="display: block;">with Full Frame, 6-9L, Pneumatic</span>
                     </h3>
                 </div>
                 <ul>
@@ -2954,7 +2955,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="New Jayco without hook">
+                        <a href="#" class="shopButton" data-product-name="Rapid SL Concealed Cistern with Full Frame, 6-9L, Pneumatic">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -2968,10 +2969,10 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-            <img src="./nmp/HEALTH FAUCETS/budget without hook.png" 
+            <img src="./grohe/nonamedone/uniset concealed cristen.png" 
      alt="collection-reducers" 
-     width="100" 
-     height="100" 
+     width="200" 
+     height="200" 
      loading="lazy" 
      class="img-fluid">
 <style>
@@ -2996,7 +2997,8 @@
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                     Budget Without<span style="display: block;">Hook</span>
+                    Uniset Concealed Cistern <span style="display: block;">with Half Frame, 6-9L, Pneumatic</span>
+
                     </h3>
                 </div>
                 <ul>
@@ -3005,7 +3007,8 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Budget without hook">
+                        <a href="#" class="shopButton" data-product-name="Uniset Concealed Cistern with Half Frame, 6-9L, Pneumatic">
+
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -3019,12 +3022,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/HEALTH FAUCETS/aura without hook.png" alt="collection-reducers" srcset="./nmp/HEALTH FAUCETS/aura without hook.png, ./nmp/HEALTH FAUCETS/aura without hook.png, ./nmp/HEALTH FAUCETS/aura without hook.png, ./nmp/HEALTH FAUCETS/aura without hook.png, ./nmp/HEALTH FAUCETS/aura without hook.png, ./nmp/HEALTH FAUCETS/aura without hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png" alt="collection-reducers" srcset="./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png, ./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png, ./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png, ./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png, ./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png, ./grohe/nonamedone/Uniset Half Frame Flushing Cistern-Slim- 3-6 L.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Aura Budget Without<span style="display: block;">Hook</span>
+                    Uniset Half Frame <span style="display: block;">Flushing Cistern-Slim- 3-6 L</span>
                     </h3>
                 </div>
                 <ul>
@@ -3033,7 +3036,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Aura without hook">
+                        <a href="#" class="shopButton" data-product-name="Uniset Half Frame Flushing Cistern-Slim- 3-6 L">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -3049,12 +3052,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/HEALTH FAUCETS/pearl without hook.png" alt="collection-reducers" srcset="./nmp/HEALTH FAUCETS/pearl without hook.png, ./nmp/HEALTH FAUCETS/pearl without hook.png, ./nmp/HEALTH FAUCETS/pearl without hook.png, ./nmp/HEALTH FAUCETS/pearl without hook.png, ./nmp/HEALTH FAUCETS/pearl without hook.png, ./nmp/HEALTH FAUCETS/pearl without hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png" alt="collection-reducers" srcset="./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/Concealed Cistern  6-9L Pneumatic.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Pearl Without<span style="display: block;">Hook</span>
+                    Concealed Cistern, 6-9L, Pneumatic<span style="display: block;"></span>
                     </h3>
                 </div>
                 <ul>
@@ -3063,7 +3066,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Pearl without hook">
+                        <a href="#" class="shopButton" data-product-name="Concealed Cistern,  6-9L, Pneumatic">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -3078,12 +3081,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/HEALTH FAUCETS/moon without hook.png" alt="collection-reducers" srcset="./nmp/HEALTH FAUCETS/moon without hook.png, ./nmp/HEALTH FAUCETS/moon without hook.png, ./nmp/HEALTH FAUCETS/moon without hook.png, ./nmp/HEALTH FAUCETS/moon without hook.png, ./nmp/HEALTH FAUCETS/moon without hook.png, ./nmp/HEALTH FAUCETS/moon without hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png" alt="collection-reducers" srcset="./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png, ./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png, ./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png, ./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png, ./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png, ./grohe/nonamedone/Flushing Cistern, without Frame- Slim- 3-6 L.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    Moon Without<span style="display: block;">Hook</span>
+                    Flushing Cistern, <span style="display: block;">without Frame- Slim- 3-6 L</span>
                     </h3>
                 </div>
                 <ul>
@@ -3092,7 +3095,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="Moon without hook">
+                        <a href="#" class="shopButton" data-product-name="Flushing Cistern, without Frame- Slim- 3-6 L">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -3106,12 +3109,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/HEALTH FAUCETS/new conti without hook.png" alt="collection-reducers" srcset="./nmp/HEALTH FAUCETS/new conti without hook.png, ./nmp/HEALTH FAUCETS/new conti without hook.png, ./nmp/HEALTH FAUCETS/new conti without hook.png, ./nmp/HEALTH FAUCETS/new conti without hook.png, ./nmp/HEALTH FAUCETS/new conti without hook.png, ./nmp/HEALTH FAUCETS/new conti without hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png" alt="collection-reducers" srcset="./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png, ./grohe/nonamedone/GD2 Concealed Cistern  6-9L Pneumatic.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    New Conti Without<span style="display: block;">Hook</span>
+                    GD2 Concealed <span style="display: block;">Cistern, 6-9L, Pneumatic</span>
                     </h3>
                 </div>
                 <ul>
@@ -3120,7 +3123,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="New Conti without hook">
+                        <a href="#" class="shopButton" data-product-name="GD2 Concealed Cistern, 6-9L, Pneumatic">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -3162,12 +3165,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/HEALTH FAUCETS/J-573 without hook.png" alt="collection-reducers" srcset="./nmp/HEALTH FAUCETS/J-573 without hook.png, ./nmp/HEALTH FAUCETS/J-573 without hook.png, ./nmp/HEALTH FAUCETS/J-573 without hook.png, ./nmp/HEALTH FAUCETS/J-573 without hook.png, ./nmp/HEALTH FAUCETS/J-573 without hook.png, ./nmp/HEALTH FAUCETS/J-573 without hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png" alt="collection-reducers" srcset="./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30 White.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    J-573 Without<span style="display: block;">Hook</span>
+                    New Tempesta-F <span style="display: block;">Trigger Spray 30, White</span>
                     </h3>
                 </div>
                 <ul>
@@ -3176,7 +3179,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="J-573 without hook">
+                        <a href="#" class="shopButton" data-product-name="New Tempesta-F Trigger Spray 30, White">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
@@ -3190,12 +3193,12 @@
     <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
         <div class="content-collection-text d-flex align-items-center justify-content-between">
             <div class="content-image d-flex align-items-center justify-content-center">
-                <img src="./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png" alt="collection-reducers" srcset="./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png, ./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png, ./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png, ./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png, ./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png, ./nmp/SS JALI AND COCKROACH TRAP/ss premium jali.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+                <img src="./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png" alt="collection-reducers" srcset="./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png, ./grohe/nonamedone/New Tempesta-F Trigger Spray 30.png" width="200" height="200.0" loading="lazy" class="img-fluid">
             </div>
             <div class="content-text">
                 <div class="title line-clamp-1" style="color: #222222;">
                     <h3 style="display: inline-block;">
-                    SS Premium Jali<span style="display: block;"></span>
+                    New Tempesta-F <span style="display: block;">Trigger Spray 30</span>
                     </h3>
                 </div>
                 <ul>
@@ -3204,7 +3207,7 @@
                     </li>
                     <li class="button_collection">
                         <!-- Shop Button -->
-                        <a href="#" class="shopButton" data-product-name="SS Premium Jali">
+                        <a href="#" class="shopButton" data-product-name="New Tempesta-F Trigger Spray 30">
                             <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
                         </a>
                     </li>
