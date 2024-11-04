@@ -117,12 +117,12 @@
                                     <div class="content position-absolute content-1 text-left">
 
                                         <div class="caption-animate caption-1 f_df font-700 text-uppercase font-normal" data-animate="bounceInLeft animated" style="color: #ffffff;">
-                                            <p>Exclusive</p>
+                                            <p>Where dream</p>
                                         </div>
 
 
                                         <div class="caption-animate caption-2 f_df font-700 text-uppercase font-normal" data-animate="bounceInRight animated" style="color: #ffffff;">
-                                            <p>Powerfull Tires</p>
+                                            <p>Bathrooms are made</p>
                                         </div>
 
 
@@ -153,21 +153,19 @@
                                     <div class="content position-absolute content-2 text-left">
 
                                         <div class="caption-animate caption-1 f_df font-700 text-uppercase font-normal" data-animate="bounceInLeft animated" style="color: #ffffff;">
-                                            <p>Car Wheels</p>
+                                            <p>Crafting Bathrooms</p>
                                         </div>
 
 
                                         <div class="caption-animate caption-2 f_df font-700 text-uppercase font-normal" data-animate="bounceInRight animated" style="color: #db0000;">
-                                            <p>Sport edittions</p>
+                                            <p>Beyond Imagination</p>
                                         </div>
 
 
 
                                         <div class="caption-btn d-flex align-items-center justify-content-start justify-content-sm-start">
 
-                                            <a class="button color-button-1 btn-medium" href="">
-                        Shop Now
-                      </a>
+                                            
 
                                         </div>
 
@@ -196,21 +194,19 @@
                                     <div class="content position-absolute content-3 text-left">
 
                                         <div class="caption-animate caption-1 f_df font-700 text-uppercase font-normal" data-animate="bounceInLeft animated" style="color: #ffffff;">
-                                            <p>Automotive</p>
+                                            <p>Elevating Everyday</p>
                                         </div>
 
 
                                         <div class="caption-animate caption-2 f_df font-700 text-uppercase font-normal" data-animate="bounceInRight animated" style="color: #ffffff;">
-                                            <p>Headlights</p>
+                                            <p>Luxury in Bathrooms</p>
                                         </div>
 
 
 
                                         <div class="caption-btn d-flex align-items-center justify-content-start justify-content-sm-start">
 
-                                            <a class="button color-button-1 btn-medium" href="">
-                        Shop Now
-                      </a>
+                                  
 
                                         </div>
 
@@ -372,8 +368,8 @@
     <div class="img-container left-img-container">
         <img src="./nmp/left.jpg" alt="Left Image">
         <div class="overlay-text">
-            <p>Left Image Line 1</p>
-            <p>Left Image Line 2</p>
+            <h2>Little Bathroom</h2>
+            <h2>Victories</>
         </div>
     </div>
 
@@ -381,8 +377,8 @@
     <div class="img-container right-img-container">
         <img src="./nmp/right.jpg" alt="Right Image">
         <div class="overlay-text">
-            <p>Right Image Line 1</p>
-            <p>Right Image Line 2</p>
+            <h2>Bathroom</h2>
+            <h2>Elegant Design</h2>
         </div>
     </div>
 </div>
@@ -496,10 +492,8 @@
 
     <!-- Right Side Text Content -->
     <div class="right-text">
-        <h2>Engaging Heading Here</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
-        <p>Aliquam erat volutpat. Curabitur consequat arcu nec orci fermentum, a ultrices lorem aliquam.</p>
-        <a href="#" class="cta-button">Read More</a>
+        <h1>Exquisite Bathroom Innovation</h2>
+        <h3>Transform your space with luxurious, high-quality bathroom designs crafted for elegance and durability.</h3>
     </div>
 </div>
 
@@ -1253,18 +1247,16 @@
             <div class="card-page cart-page-outside"></div>
             <div class="card-page cart-page-inside">
                 <span class="cards">
-                    <img alt="" src="./jain pvc fittings.png" />
+                    <img alt="" src="./grohe/BauCurve_Wall_Tap_Sink-removebg-preview.png" />
                 </span>
             </div>
         </div>
         <div class="card-page cart-page-bottom">
             <p>    
-                Jain PVC pipes and fittings are known for their durability,
-                 corrosion resistance, and ease of installation. 
-                 They are commonly used in plumbing systems for both residential and commercial applications.
-                  Jain PVC pipes are available in a wide range of sizes and pressure ratings,
-                   making them suitable for various applications. 
-            </p>
+            GROHE, a global leader in premium bathroom and kitchen solutions, 
+            is renowned for German engineering, quality, and innovation. 
+            Their products combine style with advanced technologies like water-saving 
+            features and smart home integration, delivering both luxury and sustainability.
           
         </div>
     </div>
@@ -1806,7 +1798,7 @@
                                 <a href="#" class="manufacture__link d-inline-block">
                                     <h1 style="text-align: center; display: block; width: 100%;">𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐁𝐑𝐀𝐍𝐃𝐒
                                     </h1>
-                                    <img src="./cdn/brand/grohe.jpg" alt="img-brand" width="220" loading="lazy" class="img-fluid">
+                                    <img src="./cdn/brand/grohe.jpg" alt="img-brand" width="270" loading="lazy" class="img-fluid">
                                 </a>
                             </div>
                         </div>
@@ -4196,7 +4188,595 @@
     </div>
     <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
     
-
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/93/angle valve 1-2 inlet 1-2 outlet.png" alt="collection-reducers" srcset="./grohe/93/angle valve 1-2 inlet 1-2 outlet.png, ./grohe/93/angle valve 1-2 inlet 1-2 outlet.png, ./grohe/93/angle valve 1-2 inlet 1-2 outlet.png, ./grohe/93/angle valve 1-2 inlet 1-2 outlet.png, ./grohe/93/angle valve 1-2 inlet 1-2 outlet.png, ./grohe/93/angle valve 1-2 inlet 1-2 outlet.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Angle Valve, 1/2"  <span style="display: block;">Inlet, 1/2" Outlet</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Angle Valve, 1/2 Inlet, 1/2 Outlet">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png" alt="collection-reducers" srcset="./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve 1-2 Inlet 3-8 Outlet.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Angle Valve, 1/2"  <span style="display: block;">Inlet, 3/8" Outlet</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Angle Valve, 1/2 Inlet, 3/8 Outlet">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png" alt="collection-reducers" srcset="./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png, ./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png, ./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png, ./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png, ./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png, ./grohe/93/Angle Valve 1-2 Inlet 1-2 Outlet-2.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Angle Valve, 1/2"  <span style="display: block;">Inlet, 1/2" Outlet</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Angle Valve, 1/2 Inlet, 1/2 Outlet">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png" alt="collection-reducers" srcset="./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png, ./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png, ./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png, ./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png, ./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png, ./grohe/93/Dual Angle Valve 1-2 Inlet 3-8 and 3-4 with hose connector.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Dual Angle Valve, 1/2" <span style="display: block;">Inlet, 3/8" and 3/4" with Hose Connector </span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Dual Angle Valve, 1/2 Inlet, 3/8 and 3/4 with Hose Connector">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png" alt="collection-reducers" srcset="./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 1-2 Outlet.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Angle Valve, TDL, 1/2"<span style="display: block;"> Inlet, 1/2" Outlet </span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Angle Valve, TDL, 1/2 Inlet, 1/2 Outlet">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png" alt="collection-reducers" srcset="./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png, ./grohe/93/Angle Valve TDL 1-2 Inlet 3-8 Outlet.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Angle Valve, TDL, <span style="display: block;"> 1/2" Inlet, 3/8" Outlet  </span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Angle Valve, TDL, 1/2 Inlet, 3/8 Outlet">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png" alt="collection-reducers" srcset="./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png, ./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png, ./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png, ./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png, ./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png, ./grohe/97/BauCosmopolitan Multi-towel Rack 510mm.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauCosmopolitan Multi-towel <span style="display: block;"> Rack 510mm   </span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauCosmopolitan Multi-towel Rack 510mm">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/97/BauCosmopolitan Paper Holder w-o cover.png" alt="collection-reducers" srcset="./grohe/97/BauCosmopolitan Paper Holder w-o cover.png, ./grohe/97/BauCosmopolitan Paper Holder w-o cover.png, ./grohe/97/BauCosmopolitan Paper Holder w-o cover.png, ./grohe/97/BauCosmopolitan Paper Holder w-o cover.png, ./grohe/97/BauCosmopolitan Paper Holder w-o cover.png, ./grohe/97/BauCosmopolitan Paper Holder w-o cover.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauCosmopolitan Paper <span style="display: block;">Holder w/o cover</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauCosmopolitan Paper Holder w/o cover">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/97/BauCosmopolitan Towel Ring.png" alt="collection-reducers" srcset="./grohe/97/BauCosmopolitan Towel Ring.png, ./grohe/97/BauCosmopolitan Towel Ring.png, ./grohe/97/BauCosmopolitan Towel Ring.png, ./grohe/97/BauCosmopolitan Towel Ring.png, ./grohe/97/BauCosmopolitan Towel Ring.png, ./grohe/97/BauCosmopolitan Towel Ring.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauCosmopolitan  <span style="display: block;"> Towel Ring </span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauCosmopolitan Towel Ring">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/98/Essentials Soap Dish.png" alt="collection-reducers" srcset="./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauCosmopolitan for <span style="display: block;">glass/soap/dispenser</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauCosmopolitan for glass/soap/dispenser">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/98/essentials soap dispenser.png" alt="collection-reducers" srcset="./grohe/98/essentials soap dispenser.png, ./grohe/98/essentials soap dispenser.png, ./grohe/98/essentials soap dispenser.png, ./grohe/98/essentials soap dispenser.png, ./grohe/98/essentials soap dispenser.png, ./grohe/98/essentials soap dispenser.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Essentials Soap<span style="display: block;">dispenser</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Essentials Soap Dispenser">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/98/Essentials Soap Dish.png" alt="collection-reducers" srcset="./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png, ./grohe/98/Essentials Soap Dish.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Essentials Soap <span style="display: block;">dish</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Essentials Soap Dish">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/98/Essentials Glass.png" alt="collection-reducers" srcset="./grohe/98/Essentials Glass.png, ./grohe/98/Essentials Glass.png, ./grohe/98/Essentials Glass.png, ./grohe/98/Essentials Glass.png, ./grohe/98/Essentials Glass.png, ./grohe/98/Essentials Glass.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    Essentials Glass <span style="display: block;"></span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="Essentials Glass">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/98/BauCosmopolitan Robe Hook.png" alt="collection-reducers" srcset="./grohe/98/BauCosmopolitan Robe Hook.png, ./grohe/98/BauCosmopolitan Robe Hook.png, ./grohe/98/BauCosmopolitan Robe Hook.png, ./grohe/98/BauCosmopolitan Robe Hook.png, ./grohe/98/BauCosmopolitan Robe Hook.png, ./grohe/98/BauCosmopolitan Robe Hook.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauCosmopolitan <span style="display: block;">Robe Hook</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauCosmopolitan Robe Hook">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/102/BauEdge Wall Tap Sink.png" alt="collection-reducers" srcset="./grohe/102/BauEdge Wall Tap Sink.png, ./grohe/102/BauEdge Wall Tap Sink.png, ./grohe/102/BauEdge Wall Tap Sink.png, ./grohe/102/BauEdge Wall Tap Sink.png, ./grohe/102/BauEdge Wall Tap Sink.png, ./grohe/102/BauEdge Wall Tap Sink.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauEdge Wall  <span style="display: block;">Tap Sink</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauEdge Wall Tap Sink">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/102/BauLoop Wall Tap Sink.png" alt="collection-reducers" srcset="./grohe/102/BauLoop Wall Tap Sink.png, ./grohe/102/BauLoop Wall Tap Sink.png, ./grohe/102/BauLoop Wall Tap Sink.png, ./grohe/102/BauLoop Wall Tap Sink.png, ./grohe/102/BauLoop Wall Tap Sink.png, ./grohe/102/BauLoop Wall Tap Sink.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauLoop Wall <span style="display: block;">Tap Sink</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauLoop Wall Tap Sink">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/102/BauCurve Wall Tap Sink.png" alt="collection-reducers" srcset="./grohe/102/BauCurve Wall Tap Sink.png, ./grohe/102/BauCurve Wall Tap Sink.png, ./grohe/102/BauCurve Wall Tap Sink.png, ./grohe/102/BauCurve Wall Tap Sink.png, ./grohe/102/BauCurve Wall Tap Sink.png, ./grohe/102/BauCurve Wall Tap Sink.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauCurve Wall <span style="display: block;">Tap Sink</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauCurve Wall Tap Sink">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/102/BauFlow Wall Tap Sink.png" alt="collection-reducers" srcset="./grohe/102/BauFlow Wall Tap Sink.png, ./grohe/102/BauFlow Wall Tap Sink.png, ./grohe/102/BauFlow Wall Tap Sink.png, ./grohe/102/BauFlow Wall Tap Sink.png, ./grohe/102/BauFlow Wall Tap Sink.png, ./grohe/102/BauFlow Wall Tap Sink.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauFlow Wall<span style="display: block;">Tap Sink</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauFlow Wall Tap Sink">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/102/BauLoop Pillar Tap Sink.png" alt="collection-reducers" srcset="./grohe/102/BauLoop Pillar Tap Sink.png, ./grohe/102/BauLoop Pillar Tap Sink.png, ./grohe/102/BauLoop Pillar Tap Sink.png, ./grohe/102/BauLoop Pillar Tap Sink.png, ./grohe/102/BauLoop Pillar Tap Sink.png, ./grohe/102/BauLoop Pillar Tap Sink.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauLoop Pillar<span style="display: block;">Tap Sink</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauLoop Pillar Tap Sink">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
+    <!-------------------------------------------- PVC end cap ----------------------------------------------------------->
+    <div class="col-xl-4 col-lg-6 col-md-6 mb-30">
+        <div class="content-collection-text d-flex align-items-center justify-content-between">
+            <div class="content-image d-flex align-items-center justify-content-center">
+                <img src="./grohe/102/BauEdge Pillar Tap Sink.png" alt="collection-reducers" srcset="./grohe/102/BauEdge Pillar Tap Sink.png, ./grohe/102/BauEdge Pillar Tap Sink.png, ./grohe/102/BauEdge Pillar Tap Sink.png, ./grohe/102/BauEdge Pillar Tap Sink.png, ./grohe/102/BauEdge Pillar Tap Sink.png, ./grohe/102/BauEdge Pillar Tap Sink.png" width="200" height="200.0" loading="lazy" class="img-fluid">
+            </div>
+            <div class="content-text">
+                <div class="title line-clamp-1" style="color: #222222;">
+                    <h3 style="display: inline-block;">
+                    BauEdge Pillar<span style="display: block;">Tap Sink</span>
+                    </h3>
+                </div>
+                <ul>
+                    <li>
+                       
+                    </li>
+                    <li class="button_collection">
+                        <!-- Shop Button -->
+                        <a href="#" class="shopButton" data-product-name="BauEdge Pillar Tap Sink">
+                            <p>Shop Now</p><i class="zmdi zmdi-long-arrow-right"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------- PVC  end cap  ----------------------------------------------------------->
+    
+    
 
 
                     </div>

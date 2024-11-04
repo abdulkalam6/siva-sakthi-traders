@@ -117,12 +117,12 @@
                                     <div class="content position-absolute content-1 text-left">
 
                                         <div class="caption-animate caption-1 f_df font-700 text-uppercase font-normal" data-animate="bounceInLeft animated" style="color: #ffffff;">
-                                            <p>Exclusive</p>
+                                            <p>Where dream</p>
                                         </div>
 
 
                                         <div class="caption-animate caption-2 f_df font-700 text-uppercase font-normal" data-animate="bounceInRight animated" style="color: #ffffff;">
-                                            <p>Powerfull Tires</p>
+                                            <p>Bathrooms are made</p>
                                         </div>
 
 
@@ -153,21 +153,18 @@
                                     <div class="content position-absolute content-2 text-left">
 
                                         <div class="caption-animate caption-1 f_df font-700 text-uppercase font-normal" data-animate="bounceInLeft animated" style="color: #ffffff;">
-                                            <p>Car Wheels</p>
+                                            <p>Crafting Bathrooms</p>
                                         </div>
 
 
                                         <div class="caption-animate caption-2 f_df font-700 text-uppercase font-normal" data-animate="bounceInRight animated" style="color: #db0000;">
-                                            <p>Sport edittions</p>
+                                            <p>Beyond Imagination</p>
                                         </div>
 
 
 
                                         <div class="caption-btn d-flex align-items-center justify-content-start justify-content-sm-start">
 
-                                            <a class="button color-button-1 btn-medium" href="">
-                        Shop Now
-                      </a>
 
                                         </div>
 
@@ -196,21 +193,19 @@
                                     <div class="content position-absolute content-3 text-left">
 
                                         <div class="caption-animate caption-1 f_df font-700 text-uppercase font-normal" data-animate="bounceInLeft animated" style="color: #ffffff;">
-                                            <p>Automotive</p>
+                                            <p>Elevating Everyday</p>
                                         </div>
 
 
                                         <div class="caption-animate caption-2 f_df font-700 text-uppercase font-normal" data-animate="bounceInRight animated" style="color: #ffffff;">
-                                            <p>Headlights</p>
+                                            <p>Luxury in Bathrooms</p>
                                         </div>
 
 
 
                                         <div class="caption-btn d-flex align-items-center justify-content-start justify-content-sm-start">
 
-                                            <a class="button color-button-1 btn-medium" href="">
-                        Shop Now
-                      </a>
+                
 
                                         </div>
 
@@ -370,19 +365,19 @@
 <div class="two-img-at-once">
     <!-- Left Image Container -->
     <div class="img-container left-img-container">
-        <img src="./nmp/left.jpg" alt="Left Image">
+        <img src="./grohe/left.jpg" alt="Left Image">
         <div class="overlay-text">
-            <p>Left Image Line 1</p>
-            <p>Left Image Line 2</p>
+            <h3>Little Bathroom</h3>
+            <h3>Victories</h3>
         </div>
     </div>
 
     <!-- Right Image Container -->
     <div class="img-container right-img-container">
-        <img src="./nmp/right.jpg" alt="Right Image">
+        <img src="./grohe/right.jpeg" alt="Right Image">
         <div class="overlay-text">
-            <p>Right Image Line 1</p>
-            <p>Right Image Line 2</p>
+            <h3>Bathroom</h3>
+            <h3>Elegant Design</h3>
         </div>
     </div>
 </div>
@@ -496,10 +491,8 @@
 
     <!-- Right Side Text Content -->
     <div class="right-text">
-        <h2>Engaging Heading Here</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada.</p>
-        <p>Aliquam erat volutpat. Curabitur consequat arcu nec orci fermentum, a ultrices lorem aliquam.</p>
-        <a href="#" class="cta-button">Read More</a>
+        <h2>Exquisite Bathroom Innovation</h2>
+        <h3>Transform your space with luxurious, high-quality bathroom designs crafted for elegance and durability.</h3>
     </div>
 </div>
 
@@ -1253,17 +1246,17 @@
             <div class="card-page cart-page-outside"></div>
             <div class="card-page cart-page-inside">
                 <span class="cards">
-                    <img alt="" src="./jain pvc fittings.png" />
+                    <img alt="" src="./nmp/xc.png" />
                 </span>
             </div>
         </div>
         <div class="card-page cart-page-bottom">
             <p>    
-                Jain PVC pipes and fittings are known for their durability,
-                 corrosion resistance, and ease of installation. 
-                 They are commonly used in plumbing systems for both residential and commercial applications.
-                  Jain PVC pipes are available in a wide range of sizes and pressure ratings,
-                   making them suitable for various applications. 
+            NMP Bath Fittings is a leading Indian manufacturer of bathroom products, 
+            offering high-quality faucets, accessories, and showers for residential and 
+            commercial markets. With over two decades of experience, NMP emphasizes premium
+            quality, innovative design, and affordability. Each product undergoes rigorous
+            quality checks and is backed by a 7-year warranty.
             </p>
           
         </div>
